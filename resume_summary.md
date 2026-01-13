@@ -53,18 +53,25 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
 ## Technical Skills & Expertise
 
 ### Programming Languages & Development
-- **Python** - Data manipulation, automation, API clients, web development
+- **Python** - Data manipulation, automation, API clients, web development, web scraping
 - **Java** - Data processing, scalable systems
 - **SQL** - Advanced queries, data extraction, transformations, optimization
 - **Excel VBA / Access VBA** - Advanced automation and enterprise tooling
+- **JavaScript** - Web development, plugin development, frontend interactivity
+- **HTML/CSS** - Web design and styling
+- **React** - Modern frontend framework for web applications
 
 ### 🔍 INFORMATION REQUIRED - Additional Technologies
-**Question:** Any other programming languages or frameworks beyond Python, Java, VBA, SQL that you use regularly?
+**Question:** Any other programming languages or frameworks beyond those listed that you use regularly?
 
 ### Cloud Platforms & Infrastructure
 - **Microsoft Azure** - Cloud-based analytics platforms, data warehousing, ETL automation
-- **Google Cloud** - Automation workflows, API integrations, real-time collaboration
-- **🔍 INFORMATION REQUIRED:** Any specific Azure or Google Cloud services you specialize in? (Functions, Storage, BigQuery, etc.)
+- **Google Cloud Platform:**
+  - **Google Cloud Run** - Serverless compute for containerized applications
+  - **Cron jobs** - Scheduled task automation
+  - Google Drive API, Google Sheets API integration
+  - Automation workflows and real-time collaboration
+- **🔍 INFORMATION REQUIRED:** Any other specific Azure or Google Cloud services? (Azure Functions, Storage, BigQuery, Cloud Functions, etc.)
 
 ### Microsoft Ecosystem
 - **Power Platform:**
@@ -76,9 +83,13 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
 - **Microsoft 365** - API integrations, workflow automation
 
 ### Google Ecosystem
-- **Google APIs** - Cloud-based automation
-- **Google Workspace** - Docs/Drive-focused workflows, dynamic document generation
-- **Google Sheets** - Advanced automation and integration
+- **Google Workspace APIs:**
+  - Google Drive API (file management and automation)
+  - Google Sheets API (data integration and automation)
+  - Google Docs API (dynamic document generation)
+- **Google My Business API** - Review and rating integration
+- **Google Looker Studio** - Data visualization and dashboarding
+- Advanced automation and workflow integration
 
 ### Salesforce
 - **API Integrations:** SOAP, REST, Bulk, Pub/Sub
@@ -88,7 +99,8 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
 ### Data & Analytics Tools
 - **Power BI** - Real-time dashboards, enterprise reporting
 - **Tableau** - Data visualization
-- **Looker** - Analytics and visualization
+- **Google Looker Studio** - Cloud-based dashboards and reporting
+- **Databox** - KPI tracking and business metrics dashboarding
 - **Matplotlib / Seaborn** - Python-based data visualization
 
 ### Big Data & Distributed Systems
@@ -97,7 +109,18 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
 
 ### Web Development & Applications
 - **Flask** - Web servers, workflow automation applications, API development
-- **🔍 INFORMATION REQUIRED:** Any other web frameworks or frontend technologies?
+- **React** - Modern frontend framework for SPAs and web applications
+- **Headless CMS Architecture** - Decoupled content management systems
+- **Responsive Web Design** - Mobile-first, cross-device compatibility
+- **SEO Optimization** - Search engine optimization best practices
+- **JavaScript/HTML/CSS** - Frontend development and interactivity
+- **🔍 INFORMATION REQUIRED:** Any other web frameworks or frontend technologies? (Node.js, Vue, Angular, etc.)
+
+### E-commerce & SaaS Platform Integrations
+- **Shopify API** - E-commerce platform integration, plugin development, cart management
+- **Clio API** - Legal case management system integration
+- **SSIS (SQL Server Integration Services)** - ETL automation and data integration
+- **🔍 INFORMATION REQUIRED:** Any other SaaS platforms you integrate with regularly?
 
 ### AI/ML & RAG Systems
 - **Retrieval Augmented Generation (RAG)** - Chatbot development trained on internal SOPs, FAQs, and user guides
@@ -121,9 +144,14 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
   - Geo-point classification
   - Levenshtein fuzzy matching calculations
   - Activity-based cost recognition models
-- **Web Scraping** - Data acquisition from external sources
+  - Checksum algorithms for data validation and integrity
+  - Data standardization and validation
+  - Duplicate detection algorithms
+- **Reverse Engineering** - Database and software analysis, format mimicry
+- **Web Scraping** - Public data acquisition, patent databases, arrest records
 - **EDI Feeds** - Electronic Data Interchange integration
 - **API Development & Integration** - Custom API clients and integrations
+- **Dynamic Column Mapping** - Flexible data import from varying file formats
 
 ---
 
@@ -139,46 +167,268 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
 
 #### Key Clients & Projects
 
-##### 🔍 INFORMATION REQUIRED - Global Frontier Missions Project
-**Question:** Can you provide more details about the Global Frontier Missions project?
-- What systems did you build/rebuild?
-- What specific outcomes were achieved?
-- Project duration?
+##### Global Frontier Missions (GFM) - Grant Hayes
+**Organization:** Non-profit based in Clarkston, GA
+**Project Type:** Data infrastructure transformation and automated reporting system
+
+**The Problem:**
+- Internal user metrics and feedback scattered across multiple Google Forms and Sheets
+- Manual translation of Word documents into spreadsheet records
+- Siloed reporting approach: each dataset analyzed independently, then manually combined
+- No centralized data processing or standardization
+- Time-consuming, error-prone reporting workflow
+
+**The Solution:**
+- Streamlined all data collection to web-based files in Google Drive
+- Built comprehensive data collection, cleaning, and aggregation processes
+- Developed interactive dashboards using Google Looker Studio for real-time reporting
+- Automated data processing using Python and Google Cloud Run with scheduled cron jobs
+- Created unified reporting system eliminating manual consolidation
+
+**Technologies Used:**
+- Python (data processing and automation)
+- Google Cloud Run (serverless compute)
+- Google Looker Studio (dashboarding and visualization)
+- Google Drive API (file management)
+- Cron jobs (scheduled automation)
+- Google Sheets API (data integration)
+
+**Outcomes:**
+- Eliminated manual data entry and translation work
+- Centralized reporting with real-time insights
+- Improved operational visibility for missionary field staff
+- Automated previously time-intensive manual processes
+
+---
+
+##### Brad Thomas Law - Brad Thomas
+**Organization:** Law firm
+**Project Type:** Legal case management integration and profitability analytics
+
+**The Solution:**
+- Integrated Clio case management system data into Databox for unified dashboarding
+- Developed profitability analysis capabilities
+- Created real-time visibility into firm performance metrics
+
+**Technologies Used:**
+- Clio API (case management data extraction)
+- Databox (dashboard and KPI visualization)
+- Data integration and transformation pipelines
+
+**Outcomes:**
+- Centralized view of case management data
+- Enhanced profitability insights for decision-making
+- Real-time performance tracking
+
+---
+
+##### Soyars and Morgan Law - Jodi Soyars
+**Organization:** San Antonio-based law firm
+**Project Type:** Marketing automation for multiple counties
+
+**The Problem:**
+- Manual process for identifying potential clients from arrest records
+- Multiple data sources with varying formats across counties
+- Need to filter for specific charges and validate contact information
+- Manual compilation of mailing lists for marketing campaigns
+
+**The Solution:**
+- Built Python-based application with dual data acquisition methods:
+  - **Automated:** Automatically downloads and processes publicly available arrest records from county websites
+  - **Manual Import:** User interface for importing data from counties without online systems
+- **Dynamic Column Mapping:** User maps columns from varying file layouts (Excel/CSV) to standardized fields
+- **Intelligent Processing:**
+  - Filters arrest records for specific charges the firm wanted to represent
+  - Standardizes and validates names and mailing addresses
+  - Duplicate detection: checks if arrestee was included in prior imports
+  - Generates clean CSV file for USPS mail marketing firm
+- End-to-end marketing automation from arrest record to direct mail campaign
+
+**Technologies Used:**
+- Python (web scraping, data processing, UI)
+- Web scraping for public record acquisition
+- Data validation and standardization algorithms
+- CSV/Excel file processing
+- Custom UI for manual data import with column mapping
+
+**Outcomes:**
+- Fully automated marketing process for multiple counties
+- Eliminated manual data entry and compilation
+- Standardized contact data for higher delivery rates
+- Prevented duplicate mailings through smart detection
+- Scalable solution handling varying data formats
+
+---
+
+##### Psych Prep - Sorin
+**Organization:** Educational services
+**Project Type:** Advanced Access database feature development
+
+**The Solution:**
+- Updated and enhanced existing Microsoft Access database
+- Developed advanced features requiring extensive VBA programming
+- Implemented custom SQL code for complex data operations
+
+**Technologies Used:**
+- Microsoft Access
+- VBA (Visual Basic for Applications)
+- Custom SQL queries and procedures
+
+**Outcomes:**
+- Enhanced database functionality with advanced features
+- Improved data management capabilities
+
+---
+
+##### RipLaces (Missionary Business)
+**Organization:** Missionary-run e-commerce business supporting South American missions
+**Project Type:** Custom Shopify product design plugin
+
+**The Solution:**
+- Built custom web plugin for Shopify store
+- **Product Design Tool:**
+  - Allows customers to upload their own images
+  - Real-time preview showing image displayed on physical product
+  - Visual "what it actually looks like" experience
+- **Kit Product Management:**
+  - Handled products composed of multiple items (kit bundles)
+  - Automatically adds both/all items to shopping cart in correct quantities
+  - Seamless integration with Shopify cart and checkout
+
+**Technologies Used:**
+- Shopify API and plugin development
+- Web development (JavaScript, HTML, CSS)
+- Image processing and preview rendering
+- E-commerce cart integration
+
+**Outcomes:**
+- Enhanced customer experience with visual design tool
+- Increased revenue channeled directly to mission support in South America
+- Automated complex cart operations for kit products
+
+---
+
+##### Shaka Roofing
+**Organization:** Small startup roofing company
+**Project Type:** SEO-optimized website with automated review management
+
+**The Solution:**
+- Developed modern, SEO-optimized React-based website
+- **Headless CMS:** Admin interface for easy content curation
+  - Photo gallery management (select which photos display on each page)
+  - Review curation (choose which testimonials to feature)
+- **Automated Google Review Integration:**
+  - Automatically downloads reviews and star ratings from Google
+  - Keeps freshest, most relevant reviews at front of site
+  - Strategic SEO benefit: highlight storm-specific reviews ("saved the day when Storm Susan came through")
+  - Real-time review synchronization
+
+**Technologies Used:**
+- React (frontend framework)
+- Headless CMS architecture
+- Google My Business API (review integration)
+- SEO optimization techniques
+- Responsive web design
+
+**Outcomes:**
+- Professional web presence for startup business
+- Automated review management eliminates manual updates
+- SEO-optimized content with fresh, relevant testimonials
+- Easy content management for non-technical owner
+
+---
+
+##### NYC Public Schools - Swim Team Management
+**Organization:** New York City Public Schools athletic program
+**Project Type:** Swim meet data import automation
+
+**The Problem:**
+- Existing Access database application for managing swimmer stats and meet data
+- Software required two different versions:
+  - One to manage the actual swim meet
+  - Another to manage user data fed into and captured from meets
+- Not all schools used the software
+- Manual data entry required for swimmers from non-participating schools at large meets
+- Time-consuming, error-prone manual stat entry
+
+**The Solution:**
+- **Reverse Engineering:** Analyzed Access database to understand data validation requirements
+- **Excel Import Tool:** Developed process to import Excel-based swimmer stats directly into meet software
+- **Checksum Mimicry:** Created checksum of import process to replicate what data would look like if properly entered through the official swimmer stat application
+- Circumvented software restrictions designed to prevent direct imports
+- Automated previously manual swimmer stat entry for large meets
+
+**Technologies Used:**
+- Microsoft Access (reverse engineering)
+- Excel integration and data processing
+- Data validation and checksum algorithms
+- VBA automation
+
+**Outcomes:**
+- Eliminated manual swimmer stat entry for multi-school meets
+- Maintained data integrity through checksum validation
+- Significant time savings for meet coordinators
+- Seamless integration with existing swim meet management software
+
+---
+
+##### Arizona State University - Yin Laiyi (Student Research)
+**Organization:** ASU academic research project
+**Project Type:** Patent filing statistics data capture and analysis
+
+**The Solution:**
+- Built robust API for comprehensive patent data collection
+- **Web Scraping System:**
+  - Scraped every patent application abandoned in the first year
+  - Captured extensive statistics related to patent filing process
+  - Large-scale data acquisition for academic research
+
+**Technologies Used:**
+- API development
+- Web scraping (patent database)
+- Data extraction and processing
+- Statistical data capture
+
+**Outcomes:**
+- Comprehensive dataset on first-year patent application abandonments
+- Enabled academic research on patent filing patterns
+- Automated large-scale data collection
+
+---
+
+##### CareServ - Jeremy Spalding
+**Organization:** Healthcare services company
+**Project Type:** SQL reporting automation
+
+**The Solution:**
+- Created SSIS (SQL Server Integration Services) packages to automate redundant processes
+- Used existing SQL Server infrastructure to develop and deploy automation packages
+- Automated SQL reporting workflows
+
+**Technologies Used:**
+- SQL Server Integration Services (SSIS)
+- Microsoft SQL Server
+- SQL Studio
+- ETL (Extract, Transform, Load) processes
+
+**Outcomes:**
+- Eliminated redundant manual processes
+- Automated SQL reporting workflows
+- Improved efficiency using existing infrastructure
+
+---
+
+##### The Yass Prize / Center for Educational Reform - Caroline Allen
+**Organization:** Educational reform non-profit
+**Project Type:** [Comprehensive project details]
+
+**🔍 INFORMATION REQUIRED - Yass Prize/CER Project Details:**
+**Note:** User indicated "There is a lot to talk about with what i did for the Yass group, so put a pin in their detail."
+- What systems/solutions were built?
+- What were the key challenges and outcomes?
 - Technologies used?
-- Number of users impacted?
-
-**Current Info:** Partnered with Grant Hayes of Global Frontier Missions to rebuild internal reporting for missionary field staff, improving operational visibility and support.
-
-##### 🔍 INFORMATION REQUIRED - NYC Public Schools Swim Meet Software
-**Question:** More details on the swim meet management software:
-- What technologies/stack?
-- How many events/participants managed?
-- What specific problems did it solve?
-- What features did it include?
-- Is this still in use?
-
-**Current Info:** Developed swim meet management software to streamline event operations for New York Public Schools.
-
-##### 🔍 INFORMATION REQUIRED - South America Missionary Businesses
-**Question:** The missionary-run businesses in South America:
-- What type of businesses?
-- What did you automate?
-- What were the outcomes?
-- Technologies used?
-- Ongoing relationship?
-
-**Current Info:** Helped local missionary run businesses optimize their operations—channeling increased efficiency into direct support for missions in South America.
-
-##### Center for Educational Reform
-**Current Info:** Delivered automation solutions
-**🔍 INFORMATION REQUIRED:** What specific project/solution? Technologies? Outcomes?
-
-##### The Yass Group
-**Current Info:** Delivered automation solutions
-**🔍 INFORMATION REQUIRED:** What specific project/solution? Technologies? Outcomes?
-
-#### 🔍 INFORMATION REQUIRED - Other DAMgoodData Projects
-**Question:** Any other DAMgoodData projects not mentioned that should be included in the portfolio?
+- Project scope and duration?
+- Impact/results?
 
 #### DAMgoodData Achievements & Approach
 - Built secure, scalable systems using Excel/VBA, Access, and Python for organizations with limited technical infrastructure and diverse user bases
@@ -360,12 +610,22 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
 
 #### Mission & Ministry Projects
 1. **Global Frontier Missions - Internal Reporting Rebuild**
-   - 🔍 INFORMATION REQUIRED (see DAMgoodData section above)
+   - Non-profit data infrastructure transformation
+   - Automated Google Workspace reporting with Python and Cloud Run
+   - Google Looker Studio dashboards for missionary field staff
+   - Eliminated manual data consolidation processes
+   - See DAMgoodData section for full details
 
-2. **South America Missionary Business Optimization**
-   - 🔍 INFORMATION REQUIRED (see DAMgoodData section above)
+2. **RipLaces - Missionary Business E-commerce Plugin**
+   - Custom Shopify product design plugin for South American mission support
+   - Image upload and real-time product preview
+   - Automated kit product cart management
+   - Increased revenue channeled to missions
+   - See DAMgoodData section for full details
 
-3. **🔍 INFORMATION REQUIRED:** Other faith-based/nonprofit projects?
+3. **The Yass Prize / Center for Educational Reform**
+   - Educational reform non-profit solutions
+   - 🔍 INFORMATION REQUIRED: Full project details pending
 
 #### Enterprise Data Solutions
 1. **Data Ecosystem Optimization - Floor & Decor**
@@ -383,17 +643,31 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
    - API/EDI/web scraping integration
    - Cross-functional analytics
 
+#### Legal & Professional Services Automation
+1. **Soyars and Morgan Law - Marketing Automation**
+   - Python application automating arrest record processing for multiple counties
+   - Web scraping + manual import with dynamic column mapping
+   - Data standardization, validation, and duplicate detection
+   - Fully automated direct mail marketing campaigns
+   - See DAMgoodData section for full details
+
+2. **Brad Thomas Law - Clio Integration**
+   - Clio case management to Databox integration
+   - Profitability analysis and performance tracking
+   - Real-time KPI dashboards
+   - See DAMgoodData section for full details
+
 #### Automation & Workflow Solutions
 1. **Freight Claim Automation - Floor & Decor**
    - 60% reduction in claim resolution time
    - Power Apps + API integration
-   - 🔍 INFORMATION REQUIRED (see above for details)
+   - 🔍 INFORMATION REQUIRED (see Floor & Decor section for more details)
 
 2. **Flask Web Application for Workflow Automation - Floor & Decor**
    - Reduced data entry errors
    - SQL database integration
    - End-user training program
-   - 🔍 INFORMATION REQUIRED (see above for details)
+   - 🔍 INFORMATION REQUIRED (see Floor & Decor section for more details)
 
 3. **Invoice Management System - Floor & Decor**
    - Email attachments to general ledger automation
@@ -404,28 +678,41 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
 4. **Electronic Bill of Lading (E-BOL) - Interline Brands**
    - Systematic shipping document generation
    - Compliance-minded controls
-   - 🔍 INFORMATION REQUIRED (see above for details)
 
-#### Custom Applications
-1. **NYC Public Schools Swim Meet Management Software**
-   - 🔍 INFORMATION REQUIRED (see DAMgoodData section above)
+5. **CareServ - SQL Reporting Automation**
+   - SSIS packages automating redundant processes
+   - SQL Studio deployment for automated reporting
+   - See DAMgoodData section for full details
 
-2. **Warehouse Inventory Management Application - Floor & Decor**
+#### Custom Applications & Database Solutions
+1. **NYC Public Schools Swim Meet Data Import**
+   - Reverse engineered Access database swim meet software
+   - Excel-based swimmer stat import automation
+   - Checksum mimicry for data validation
+   - Eliminated manual entry for multi-school meets
+   - See DAMgoodData section for full details
+
+2. **Psych Prep - Advanced Access Database**
+   - Enhanced existing Access database with advanced features
+   - Extensive VBA and custom SQL development
+   - See DAMgoodData section for full details
+
+3. **Warehouse Inventory Management Application - Floor & Decor**
    - 70% reduction in downtime
    - Real-time multi-user operations
-   - 🔍 INFORMATION REQUIRED (see above for details)
+   - 🔍 INFORMATION REQUIRED (see Floor & Decor section for more details)
 
-3. **Warehouse Relocation Application - Floor & Decor**
+4. **Warehouse Relocation Application - Floor & Decor**
    - End-to-end pallet visibility
    - Complete chain of custody
    - FTZ documentation compliance
-   - 🔍 INFORMATION REQUIRED (see above for details)
+   - See Floor & Decor section for details
 
-4. **Proof of Delivery (POD) System - Interline Brands**
+5. **Proof of Delivery (POD) System - Interline Brands**
    - Fleet driver training programs
    - Compliance measurement reporting
    - Reduced customer claims
-   - 🔍 INFORMATION REQUIRED (see above for details)
+   - See Interline Brands section for details
 
 #### Cost Savings & Financial Impact Projects
 1. **Vendor Invoice Audit Tool - Southeastern Grocers**
@@ -479,6 +766,26 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
 
 2. **🔍 INFORMATION REQUIRED:** Other AI/ML projects?
 
+#### Web Development & E-commerce
+1. **Shaka Roofing - SEO Website & Review Management**
+   - SEO-optimized React website with headless CMS
+   - Automated Google review integration
+   - Strategic content curation for storm-related SEO
+   - See DAMgoodData section for full details
+
+2. **RipLaces - Shopify Product Design Plugin**
+   - Custom product design tool with image upload
+   - Real-time product preview rendering
+   - Kit product cart automation
+   - See Mission & Ministry Projects above
+
+#### Research & Academic Projects
+1. **ASU Patent Research - Yin Laiyi**
+   - Robust API for patent filing statistics
+   - Scraped all first-year abandoned patent applications
+   - Large-scale data acquisition for academic research
+   - See DAMgoodData section for full details
+
 ---
 
 ## Industries & Domain Expertise
@@ -487,9 +794,13 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
 - **Retail & Merchandising** (Floor & Decor, Southeastern Grocers)
 - **Supply Chain & Logistics** (All major roles 2007-2024)
 - **Finance** (Merchandising Financial Analyst role)
-- **Nonprofit & Grant Management** (DAMgoodData clients)
-- **Faith-based Organizations & Missions** (DAMgoodData focus)
-- **Education** (NYC Public Schools)
+- **Nonprofit & Grant Management** (Global Frontier Missions, Center for Educational Reform)
+- **Faith-based Organizations & Missions** (DAMgoodData focus, RipLaces)
+- **Education** (NYC Public Schools, Psych Prep)
+- **Legal Services** (Brad Thomas Law, Soyars and Morgan Law)
+- **Healthcare** (CareServ)
+- **E-commerce** (RipLaces, Shaka Roofing)
+- **Academic Research** (ASU patent research)
 
 ### Domain Expertise & Specializations
 - **Free Trade Zone (FTZ) Compliance** - Documentation and chain of custody
@@ -498,8 +809,16 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
 - **Warehouse Operations** - Inventory management, relocation, physical operations
 - **Freight & Logistics** - Parcel, LTL, fleet management, POD systems
 - **Invoice Processing & Audit** - Vendor compliance, rebate recovery
+- **Legal Marketing Automation** - Arrest record processing, direct mail campaigns
+- **Case Management Integration** - Legal practice management systems (Clio)
+- **E-commerce Platform Development** - Shopify customization and plugin development
+- **Public Records Processing** - Web scraping, data standardization, compliance
+- **Academic Data Collection** - Research-focused API development and web scraping
+- **SEO & Digital Marketing** - Search optimization, review management
 - **Grant Management Operations** - 🔍 INFORMATION REQUIRED: Details on grant work?
 - **Missionary Field Support** - Operational systems for remote ministry work
+- **Database Reverse Engineering** - Format analysis and system integration
+- **Healthcare Operations** - ETL automation and reporting (SSIS)
 
 ---
 
