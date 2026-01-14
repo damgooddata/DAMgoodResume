@@ -45,9 +45,10 @@ When organizations are willing to invest in doing things right the first time, t
 
 ## Work Preferences & Availability
 
-**Work Style:** Remote or Hybrid
-**Special Requirement:** Open to schedules that allow rock climbing travel across the United States
-**🔍 INFORMATION REQUIRED:** How do you want to frame the remote/hybrid + climbing lifestyle preference professionally? Any specific language or approach you prefer?
+**Work Style:** Remote or Hybrid (with flexibility for climbing travel)
+**Location:** Open to remote opportunities anywhere; hybrid roles must accommodate climbing travel schedule across the United States
+**Work Environment Preference:** Seeking smaller, growing companies where systems and process optimization drives growth—not interested in standard corporate roles unless fully remote
+**Not Interested In:** Office-based remedial work that could be done remotely; corporate bureaucracy without meaningful impact
 
 ---
 
@@ -1536,87 +1537,155 @@ David doesn't believe in quick fixes that create long-term technical debt. When 
 
 ---
 
-## Target Use Cases & Interview Preparation
+## Target Roles & Career Opportunities
 
-### 🔍 INFORMATION REQUIRED - Target Roles & Industries
-**Questions:**
-1. What types of questions do you expect employers/recruiters to ask the RAG bot?
-2. Any specific job roles you're targeting? (Data Engineer, Analytics Engineer, Solutions Architect, etc.)
-3. Industries you want to focus on for future opportunities?
-4. Should we structure sections to answer common interview questions?
+### Primary Target: Smaller Growth Companies
 
-### Likely RAG Bot Query Categories
+**Ideal Role Profile:**
+David is seeking opportunities with smaller, growing companies where building systems and optimizing processes directly drives company growth. Not interested in roles where companies are just "trying to make it to the end of the week" and view automation as a pipe dream rather than investing in doing things right.
+
+### Technical Roles of Interest
+
+**1. Advanced Salesforce Engineer (NOT Admin)**
+- **Focus:** Custom Apex development, complex business logic, system architecture
+- **NOT interested in:** Admin work (updating lists, user management)
+- **Example:** Enjoyed optimizing Salesforce org for Center for Educational Reform
+- Open to contract-based work
+
+**2. Data Engineer / Automation Specialist**
+- Smaller companies where systems/process optimization is valued
+- Building solutions that enable company growth
+- Enterprise-level solutions for growing organizations
+
+**3. Solutions Architect / Technical Lead**
+- Companies willing to invest in proper solutions
+- Strategic technology decisions and implementation
+- Building scalable foundations for growth
+
+### Alternative Career Considerations
+
+David is also open to career shifts leveraging climbing expertise:
+- **Rope Access Technician** - Using climbing skills professionally
+- **Rigging Specialist** - Technical rope work and safety systems
+- **Tree Surgeon** - If compensation is right with benefits including free gear and climbing time off
+
+### Work Environment Requirements
+
+**Must Have:**
+- **Remote or flexible hybrid** that accommodates climbing travel across the US
+- Companies that value "doing it right" over quick fixes
+- Meaningful impact on business growth and operations
+- Contract-based work acceptable
+
+**Deal Breakers:**
+- Standard corporate roles (unless fully remote)
+- Office-based remedial work that could be done remotely
+- Companies that only want to "get the job done" without investing in proper solutions
+- Corporate bureaucracy without meaningful impact
+
+### Likely Employer Questions for RAG Bot
 - Technical skills and proficiency levels
-- Project experience and outcomes
-- Industry expertise
-- Problem-solving approach
+- Project experience and quantifiable outcomes
+- Problem-solving approach and philosophy
 - Cost savings and ROI examples
-- Remote work and availability
+- Remote work capabilities and availability
 - Mission/values alignment
 - Specific technology stack questions
-
----
-
-## Additional Questions & Information Gaps
-
-### Cover Letter Information
-**🔍 INFORMATION REQUIRED:** I couldn't access the cover letter file (DM_COVER.docx). Can you share:
-- What role/company was it for?
-- Any achievements, stories, or details mentioned there that aren't in the resume?
-- Any language or framing that worked well that we should incorporate?
-
-### Missing Project Details
-**🔍 INFORMATION REQUIRED:** Any major accomplishments or projects from any role that we haven't captured yet?
-
-### References & Recommendations
-**Note:** References available but contact information excluded from markdown per instructions:
-- Van Baker - Senior Manager Finance, Floor and Decor
-- Kalyn Engwall - Sr. Manager North American Logistics, Floor and Decor
-- Chris Stanley - VP Supply Chain, Southeastern Grocers
+- Examples of "doing it right vs. quick fixes"
+- Experience with growing companies
+- Salesforce custom development capabilities
 
 ---
 
 ## Document Status & Completion Tracking
 
-### ✅ Completed Sections
-- Professional identity (corrected from Dan to David Morgan)
-- Basic work experience chronology
-- Education basics
-- Core technical skills (partial)
-- Key achievements and metrics
+### ✅ COMPLETED - Comprehensive Sections Ready for RAG Bot
 
-### 🔍 Sections Requiring Information
-1. Brand voice and positioning details
-2. RAG technology stack specifics
-3. Complete database/technology list
-4. DAMgoodData project details (4+ projects)
-5. Floor & Decor project deep-dives (3+ projects)
-6. Earlier role project details (2+ projects)
-7. Additional certifications and training
-8. Cover letter content and context
-9. Target roles and interview prep structure
-10. Work style examples and stories
-11. Grant management expertise details
-12. Google Docs judging system project
+**Professional Identity & Brand:**
+- ✅ DAMgoodData mission and philosophy ("Do it right or don't do it at all")
+- ✅ Whale Done + Jack Welch management approach
+- ✅ Results-based pricing model (~10% of cost savings)
+- ✅ Work preferences and availability (remote/hybrid with climbing flexibility)
+- ✅ Target roles and career opportunities (Salesforce Engineer, Data Engineer, rope access)
 
-### Priority Information Needed
-**HIGH PRIORITY:**
-- DAMgoodData client project details (Global Frontier Missions, NYC Schools, South America)
-- RAG chatbot technology stack
-- Flask application details from Floor & Decor
+**Complete Work History:**
+- ✅ **DAMgoodData (11 clients):** Global Frontier Missions, Brad Thomas Law, Soyars & Morgan Law, Psych Prep, RipLaces, Shaka Roofing, NYC Schools, ASU Research, CareServ, Yass Prize/CER (5-year evolution)
+- ✅ **Floor & Decor (2016-2024):** $25M vendor subsidy programs, physical inventory (week→2 days), LA warehouse relocation (zero loss), Houston expansion, reporting infrastructure transformation, FTZ compliance
+- ✅ **Southeastern Grocers (2013-2016):** Delivery schedule optimization with C&S Wholesale, promotional forecasting, $2.3M rebate recovery
+- ✅ **Interline Brands (2007-2012):** $93K+$67K+$120K cost savings, POD system, E-BOL
+- ✅ **UPS (2003-2007):** HR Supervisor, PAS Dispatch, Pre-Load Supervisor
 
-**MEDIUM PRIORITY:**
-- Additional certifications
-- Database technologies list
-- Version control and dev tools
-- Target job roles and industries
+**Technical Skills & Expertise:**
+- ✅ Programming: Python, Java, SQL, VBA, JavaScript, HTML/CSS, React
+- ✅ Cloud: Google Cloud Run, Azure, cron jobs, APIs
+- ✅ Microsoft: Power Platform, SQL Server, SharePoint, STIBO PIM
+- ✅ Google: Workspace APIs, Looker Studio, My Business API
+- ✅ Salesforce: Apex, Orchestrated Flows, LWC, Approval Processes
+- ✅ SaaS Integrations: Shopify, Clio, Bill.com, Slack, GoodGrants, SSIS, Talend
+- ✅ Specialized: Reverse engineering, web scraping, checksum algorithms, working in restricted IT environments
 
-**LOW PRIORITY:**
-- Graduation years
-- Additional early-career project details
-- Cover letter content review
+**Major Quantified Achievements:**
+- ✅ $25M in profit (Floor & Decor vendor subsidies)
+- ✅ $2.3M in rebates recovered (Southeastern Grocers)
+- ✅ $93K + $67K + $120K cost savings (Interline Brands)
+- ✅ Week → 2 days (Floor & Decor physical inventory)
+- ✅ 1 full month reduction (Yass Prize grant cycle)
+- ✅ Almost zero loss (LA warehouse relocation)
+- ✅ 60% claim resolution time reduction (freight claims)
+- ✅ 70% downtime reduction (warehouse inventory app)
+- ✅ 50% processing time improvement (data pipelines)
+- ✅ 40% manual reporting workload reduction
 
 ---
 
-**Last Updated:** 2026-01-13
-**Document Purpose:** Comprehensive professional knowledge base for RAG applications, resume generation, and career communications
+### 🔍 OPTIONAL Items (Low Priority - Not Critical for RAG Bot)
+
+**Nice to Have (Technical Details):**
+- RAG technology stack specifics (user indicated not concerned with framework choice for knowledge base)
+- Additional databases beyond SQL Server and Access
+- Version control tools (Git assumed but not documented)
+- Specific Azure/Google Cloud service details
+- Spark experience level and use cases
+- Additional Salesforce certifications beyond Platform API Superbadge
+
+**Nice to Have (Minor Details):**
+- UNF graduation year
+- Cover letter content (DM_COVER.docx couldn't be accessed)
+- Early career project technical details (POD system specifics, Southeastern Grocers network analysis depth)
+
+**Not Applicable:**
+- Contact information (intentionally excluded per user request)
+- MuthaFukinDan references (intentionally excluded per user request)
+
+---
+
+### 📊 Knowledge Base Statistics
+
+**Total Client Projects Documented:** 20+
+- DAMgoodData clients: 11
+- Floor & Decor major projects: 9+
+- Earlier career projects: Multiple
+
+**Total Years of Experience:** 20+ years (October 2003 - Present)
+
+**Industries Covered:** 10
+- Retail & Merchandising
+- Supply Chain & Logistics
+- Finance
+- Nonprofit & Grant Management
+- Faith-based Organizations & Missions
+- Education
+- Legal Services
+- Healthcare
+- E-commerce
+- Academic Research
+
+**Technologies Documented:** 50+
+
+**Quantifiable Achievements:** $28M+ in documented value creation
+
+---
+
+**Last Updated:** 2026-01-14
+**Document Purpose:** Comprehensive professional knowledge base for RAG applications, resume generation, LinkedIn updates, and career communications
+**Completeness Status:** READY FOR USE - All critical information captured, only optional technical minutiae remaining
