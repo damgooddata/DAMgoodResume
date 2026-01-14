@@ -3,9 +3,6 @@
 
 ---
 
-## 🔍 INFORMATION REQUIRED - Brand Voice & Positioning
-**Question:** How prominently should we feature the "DAM that's good data!" messaging? Should this be in the intro, woven throughout, or in a specific brand section? Any other brand personality elements to include?
-
 ---
 
 ## Professional Identity & Summary
@@ -21,8 +18,28 @@ Innovative Data Engineer with over two decades of expertise in managing vast dat
 
 **Mission-Driven Focus:** Resilient, mission-driven technology leader passionate about serving where needs are greatest—supporting missionaries, ministries, and field responders through technology that empowers. Recognized for integrating technical excellence with a servant leadership mindset.
 
-### DAMgoodData Mission
-Founded DAMgoodData with a mission-minded purpose: to serve faith-based organizations and missionaries by offering pro bono or low-cost data automation solutions. Helping businesses optimize operations so good they'll say "DAM that's good data!"
+### DAMgoodData Mission & Philosophy
+
+**Mission Statement:**
+Founded DAMgoodData with a mission-minded purpose: to serve faith-based organizations and missionaries by offering pro bono or low-cost data automation solutions. Bringing big data solutions to smaller organizations that are making a difference in society. Helping businesses optimize operations so good they'll say "DAM that's good data!"
+
+**Core Philosophy: "If You're Going to Do a Job, Do It Right"**
+
+Rather than quick fixes or short-term patches, David advocates for building proper solutions with long-term sustainability in mind. This means:
+
+- **Strategic Over Expedient:** Push back against "just get it done" mentality when it means sacrificing long-term value
+- **Right Technology for the Job:** Advocate for appropriate solutions even when clients resist complexity (AI/ML, API integrations vs. manual processes)
+- **Long-term Cost Consideration:** Every solution designed with future maintenance, scalability, and total cost of ownership in mind
+- **Technology Advocacy:** Help clients understand when investing in the right technology (APIs, automation, AI) delivers exponentially better outcomes than manual workarounds
+
+**Approach & Management Style:**
+
+- **Whale Done Philosophy:** Focus on solutions over emotions or politics. Positive reinforcement and forward momentum over blame or conflict.
+- **Jack Welch Style:** "Measure everything, sell hard!" Data-driven decision making and clear metrics for success.
+- **Results-Based Pricing:** Fair pricing model (~10% of cost savings) that aligns success with client outcomes - not about getting rich, but about demonstrating clear ROI.
+
+**Value Proposition:**
+When organizations are willing to invest in doing things right the first time, the long-term savings, efficiency gains, and operational improvements far exceed the initial investment. DAMgoodData exists to bring enterprise-grade data solutions to mission-driven organizations that might not otherwise have access to this level of expertise.
 
 ---
 
@@ -45,8 +62,25 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
 - **Field-ready solutions for low-tech environments**: Build robust systems that work with limited technical infrastructure
 - **Cross-cultural user training**: Positive reinforcement coaching approach
 
-### 🔍 INFORMATION REQUIRED - Work Style Details
-**Question:** You mention "positive reinforcement coaching" and "cross-cultural user training" - can you provide specific examples or approaches that demonstrate this? Any stories or methodologies worth detailing?
+### Leadership & Work Style Philosophy
+
+**Positive Reinforcement Approach (Whale Done):**
+- Focus on solutions and forward progress rather than dwelling on problems or assigning blame
+- Keep emotions and politics out of technical decisions
+- Celebrate wins and use setbacks as learning opportunities
+- Build confidence in teams through encouragement and support
+
+**Data-Driven Management (Jack Welch Style):**
+- Measure everything: establish clear KPIs and success metrics
+- Make decisions based on data, not assumptions
+- Transparent reporting and accountability
+- "Sell hard" on the value of proper solutions backed by measurable outcomes
+
+**Strategic Advisory Role:**
+- Not afraid to push back when clients want quick fixes over proper solutions
+- Educate clients on long-term implications of technical decisions
+- Advocate for appropriate technology even when it seems complex (AI/ML, APIs, automation)
+- Help organizations understand ROI of doing things right vs. ongoing cost of workarounds
 
 ---
 
@@ -635,70 +669,355 @@ Beyond the Yass Prize, provided Salesforce development and financial automation 
 ### Floor and Decor - Senior Merchandising Financial Analyst
 **Duration:** March 2021 - April 2024
 **Location:** Atlanta, GA
+**Company Growth:** Joined when company was ~200 people in shared office building; grew to public company opening 2-3 new stores per week
 
-#### Data Ecosystem Optimization
-- Revamped data processing infrastructure, integrating Python and Java to develop scalable data pipelines, resulting in a **50% improvement in processing times**
-- Optimized real-time data analysis through a distributed computing strategy, significantly enhancing predictive analytics model accuracy and reliability
-- Instituted automated SQL data quality checks, achieving a consistent error reduction rate across all data sets
+#### Vendor Subsidy & Cost Recovery Programs - **$25 MILLION IN PROFIT**
 
-#### Automated Reporting Solution
-- Created an automated reporting system with Python and Power BI, delivering real-time business intelligence and a **40% reduction in manual reporting workload**
-- Consolidated data from multiple sources into a centralized warehouse, enhancing comprehensive reporting and analysis capabilities
-- Implemented Flask-based web servers for dynamic reporting tools, fostering a data-centric culture among non-technical stakeholders
+**The Achievement:**
+Built and managed Python-based automation platform generating **$25 million in profit** (not revenue) in final year through vendor subsidy and cost recovery programs. Replaced full-time manual position with fully automated system processing 10,000+ vendor invoices.
 
-#### 🔍 INFORMATION REQUIRED - Flask Web Application Details
-**Question:** The Flask web app for workflow automation:
-- What specific workflows did it automate?
-- Complete tech stack?
-- Number of users?
-- Quantifiable impact beyond "improved productivity"?
+**Programs Managed:**
+- **Vendor Defect Program:** Fixed-rate program replacing claim-chasing
+  - Documented average defect occurrence rates with photos and packaging details
+  - Negotiated quarterly percentage rates with vendors based on spend
+  - Rolled out to almost all vendors
+  - Cluster model identified isolated defect instances for investigation
+  - Annual rate renegotiation based on actual vs. projected defect rates
 
-**Current Info:** Developed a Flask web application to automate internal workflows, which improved productivity and reduced data entry errors. Integrated the application with SQL databases, ensuring secure and efficient data operations, and provided comprehensive training to end-users.
+- **Photo Shoot Cost Share:** Product photography for web and e-commerce
+- **Display Board Program:** In-store product display materials
+- **Grand Opening Surcharge:** Featured products in new store openings
+- **Late PO Chargeback:** Monthly program with merchant review and approval
 
-#### Cloud-Based Analytics Platform
-- Spearheaded the migration of data solutions to Azure, developing a cloud-based analytics platform that dynamically scaled with increased demand
-- Automated ETL processes, employing Python and Java for more efficient resource utilization and establishing robust data governance frameworks
+**Technical Implementation:**
+- **Email-triggered automation:** IT system sends control file with summary and detail tabs
+- **Monthly & Quarterly Processing:** Different cadences for different programs
+- **Merchant Audit Workflow:**
+  - Program generates audit files on SharePoint
+  - Merchants review and adjust charges directly in files
+  - Program consumes responses and bills vendors accordingly
+- **SharePoint Access Management:**
+  - Integrated with PIM (Product Information Management - STIBO)
+  - Automatic access provisioning/de-provisioning
+  - Email notifications for access changes
+  - Secured vendor-specific remittance directories
+- **Vendor Communication:**
+  - 10,000+ automated emails per cycle
+  - Detailed remittance files with PO/SKU line-item breakdowns
+  - SharePoint links to remittance directories (access-controlled)
+  - Transparent documentation for multi-million dollar chargebacks
+- **AP Integration:**
+  - Consolidated file sent to Accounts Payable
+  - Simple copy/paste into payment system
+  - Automatic offset against vendor's next PO payment
 
-#### Freight Claim Automation Tool
-- Spearheaded a freight claim automation tool using Power Apps and API integration
-- **Cutting claim resolution time by 60%**
-- **🔍 INFORMATION REQUIRED:** More details on the API integrations? Volume of claims processed? Specific workflows automated?
+**Technologies Used:**
+- Python (automation engine)
+- SharePoint (document management, access control)
+- STIBO PIM integration (user access management)
+- Email automation
+- Excel processing (control files, remittance generation)
+- SQL Server integration
 
-#### 🔍 INFORMATION REQUIRED - Additional Floor & Decor Projects
-**Question:** Any other major projects at Floor & Decor worth detailing in the portfolio section? What were the key metrics/KPIs you tracked in the Power BI dashboards?
+**Outcomes:**
+- **$25 million in annual profit** from subsidy programs
+- Eliminated full-time position
+- 10,000+ automated vendor communications per cycle
+- Transparent, auditable vendor billing process
+- Streamlined merchant review and approval workflow
+
+---
+
+#### Pro Sales Quote Tool
+
+**The Challenge:**
+Pro sales team selling to major construction projects (hotels, schools) needed to offer significant discounts without impacting margins. Margins varied dramatically by product type (marble tile vs. painted glass tile).
+
+**The Solution:**
+- Built tool controlling discount basis points by product margin
+- Automated quote generation from cost worksheet
+- Formal customer quote output
+- Margin protection while enabling competitive pricing
+
+**Technologies Used:**
+- Excel/VBA or Python-based tool
+- Product cost and margin data integration
+- Quote template generation
+
+---
+
+#### Freight Claims Automation
+
+**The Solution:**
+- **Microsoft Power Automate** workflows
+- **Power Apps Forms** for intake
+- Flows mapping claims through entire approval process
+- **60% reduction in claim resolution time**
+
+**Technologies Used:**
+- Microsoft Power Apps
+- Microsoft Power Automate (Flows)
+- API integrations for claim processing
 
 ---
 
 ### Floor and Decor - Supply Chain Reporting Manager
 **Duration:** June 2016 - March 2021
 **Location:** Atlanta, GA
+**Starting Point:** First 3-4 months spent on Houston warehouse expansion project (hands-on operational work)
+
+#### Company Context & Initial State
+- Small casual company (200 people, 4 floors, casual dress, dogs at work)
+- Massive growth pains: sales outpacing warehouse and headcount capacity
+- Hired to build dashboards and make data accessible
+- Also tasked with operational warehouse projects
+
+#### Houston Warehouse Expansion Project (First 3-4 Months)
+
+**The Challenge:**
+Expand leased warehouse section without stopping operations. Essentially rebuild a warehouse while it's still operating.
+
+**The Execution:**
+- Tore down walls to add new leased section
+- Re-engineered entire layout to incorporate new space
+- Built new racking, painted new lines
+- **David's team responsibilities:**
+  - Installed pick location placards (hung above bulk locations)
+  - Labeled each tier of racking
+  - **Nightly warehouse shifts:** Moved product to allow contractors/painters to work on new areas
+  - Documented all product location changes in Manhattan WMS
+  - Next day: operations continued picking/shipping
+  - Repeated cycle until all construction completed
+
+**WMS System:**
+- Manhattan Associates WMS
+- Real-time location tracking during expansion
+- Ensured zero operational disruption during rebuild
+
+---
+
+#### Physical Inventory Revolution - WEEK → 2 DAYS
+
+**The Original Process (Week-long nightmare):**
+- 4 Distribution Centers, averaging 1M+ sq ft each (largest: 1.4M sq ft)
+- Hundreds of printed sheets with location and qty info
+- Pallet qty (floor-stacked bulk): count pallets per bay
+- Unit qty (racking/shelves): count boxes/pieces (required cherry picker/order picker MHE)
+- MWS-enabled scanners: scan location, enter qty, multiple prompts
+- Multiple days of counting and recounting until variance acceptable
+- Work through night hours trying to close variance gaps
+- **Warehouse offline for nearly a week**
+
+**The Transformation:**
+After first Miami warehouse physical inventory, David promised himself "never again."
+
+**Real-Time Reconciliation System:**
+- **Database Integration:**
+  - Captured WMS physical inventory data in real-time
+  - 15-minute refresh cycles
+  - Snapshot of pre-count inventory (after inventory lock, all tasks completed/cleared)
+- **Intelligent Analysis:**
+  - Reconciled expected vs. counted in real-time
+  - Formula identified user entry errors (e.g., counted eaches instead of boxes)
+  - Knew when variance was true vs. data entry mistake
+  - Math-based error detection: case qty and box qty division alignment
+- **Immediate Correction:**
+  - Radioed employees for recounts while still nearby
+  - Directed to specific bins with issues
+  - Explained what was entered vs. what system expected
+- **Result:** Physical inventory completed in **2 business days maximum**
+  - Day 1: First count
+  - Day 2: Final reconciliations, back to pulling orders by lunch
+
+**Impact:**
+- For a company the size of Floor & Decor, warehouse being offline is massive cost
+- Real-time reporting prevented extended downtime
+- IT eventually built David's reporting directly into Manhattan WMS as a module
+
+**Technologies Used:**
+- Manhattan WMS data integration
+- SQL Server database
+- Real-time data refresh (15-min cycles)
+- Custom reconciliation algorithms
+- MWS scanner integration
+
+---
+
+#### LA Warehouse Relocation Application - ALMOST ZERO LOSS
+
+**The Challenge:**
+Move entire warehouse without changing warehouse number in Manhattan WMS. Needed warehouse offline for minimal time.
+
+**The Solution - Custom Multi-User Scanning Application:**
+
+**10 Mobile Scanning Stations:**
+- Each user managed 4-5 bay doors
+- Forklift drivers moved product from location → staging in front of doors
+- **Scanner Workflow:**
+  - Scan pallet barcodes
+  - System had manifest of all inventory
+  - Added barcodes to queue, totaled weight
+  - **24,000 lb alert** → flag bay as ready to load
+  - Move to next bay, repeat
+  - Load team begins loading
+  - Return to finalize: release trailer for yard jockey
+  - Scan two seals, leave on trailer back
+  - Driver closes and seals load
+  - Jockey parks in loaded section
+
+**Driver Check-In/Out System:**
+- Captured driver information
+- **Photo of driver ID** for verification
+- Issued **driver ID barcode card**
+- Directed to pick any trailer from loaded section
+- **Check-Out Process:**
+  - Scan seal barcode
+  - Scan driver card
+  - **System prints BOL and packing list**
+  - Driver sent to destination
+
+**Destination Receiving:**
+- Scan seal + driver card to check in
+- Drop loaded trailer, pick up empty
+- Unload and scan into Manhattan WMS
+- David's program confirms product put-away
+- Tracks entire chain of custody
+
+**Outcomes:**
+- Hugely successful move
+- **Almost nothing lost** in the entire relocation process
+- Seamless warehouse transition without Manhattan WMS warehouse number change
+
+**Technologies Used:**
+- Custom Python/VBA application
+- Mobile barcode scanning integration
+- Weight tracking and alert system
+- Seal tracking and verification
+- Driver ID management with photo capture
+- BOL/packing list generation
+- Real-time manifest and inventory tracking
+- Manhattan WMS integration at destination
+
+---
+
+#### Domestic Logistics Invoice Automation
+
+**The Problem:**
+Managing invoices for third-party delivery vendors for store purchases resulting in home delivery. Would have required hiring a full-time person.
+
+**The Solution - Email-Based Invoice Automation:**
+
+**Strict Format Enforcement:**
+- Vendors submit invoices to generic Outlook inbox
+- **Very specific format required**
+- Program rejects invoice if even one line incorrectly formatted
+- Automatic rejection email sent explaining why
+- Vendor resubmits corrected invoice
+
+**Processing & Matching:**
+- Invoice consumed and processed
+- Compared to internal customer orders
+- Match found → charge coded for payment
+- **Algorithm determines correct GL code** (varied by customer order type)
+
+**Manager Review & Approval:**
+- Logistics manager receives report of all charges and GL coding
+- Can make changes to GL code or reject payment
+- **If no action by end of fiscal week:** charges automatically sent to AP
+
+**AP Payment:**
+- AP receives consolidated file
+- Simple copy/paste into their system
+- Vendor gets paid quickly
+
+**Outcomes:**
+- **Saved hiring a full-time employee**
+- Automated end-to-end invoice processing
+- Fast vendor payment turnaround
+- Accurate GL coding via algorithm
+
+**Technologies Used:**
+- Outlook email integration
+- Python/VBA automation
+- Order matching algorithms
+- GL code determination logic
+- Automated reporting for manager review
+- AP system integration
+
+---
+
+#### Reporting Infrastructure Transformation
+
+**Starting Point (The Horror Show):**
+- **"Reporting server":** Old desktop under desk connected to backup battery
+- **Databases:** Plethora of Access databases daisy-chained with ODBC connections
+- VBA-based rudimentary Excel reports
+- Some emailed, some dropped in network directories
+- No centralized data management
+
+**The Fight for Data Access:**
+- Worked with IT to migrate ODBC connections to SQL Server
+- Began transitioning reports from Access → SQL
+- **Manhattan WMS data access struggle:**
+  - IT wanted David limited to Cognos reports only
+  - Cognos good for displaying known-valuable data
+  - David needed raw data to **discover** value for Cognos
+  - Eventually won access to build analytics from scratch
+
+**User Input Data Challenge:**
+- Most reporting required manual user input data
+- Data from systems without ODBC access
+- Worked with IT to migrate these tables to accessible database
+
+**Outcome:**
+- Transformed from Access chaos to SQL Server-based reporting
+- Centralized data warehouse
+- Foundation for analytics and business intelligence
+
+---
+
+#### International Logistics & FTZ Compliance
+
+**Freight Accrual Streamlining:**
+- Floor & Decor operated as **Free Trade Zone (FTZ)**
+- Critical to track actual product cost vs. landed cost
+- **Freight Standard System:**
+  - Each SKU: cost for each vendor-DC-store movement
+  - All accessorial costs (fuel, demurrage)
+  - Systematic freight accrual process
+
+**Tariff Management & Diversification:**
+- **Early tariff reporting system** established
+- When political climates changed: quickly identified impacted areas
+- Enabled **rapid diversification:** found factories in other countries to produce affected products
+- Proactive supply chain risk management
+
+---
+
+#### Compliance & Packaging Optimization
+
+**Worked with Compliance Teams:**
+- Packaging and pallet standards (product damage prevention, stackability)
+- Provided reporting on new vendors and products for audit
+- **Packaging standard development:** Optimized pallet configurations
+  - Adjusted pallet dimensions
+  - Modified stacking methods
+  - **Fit more product per bay**
+
+---
 
 #### Supply Chain Business Intelligence Infrastructure
-- Designed and developed a comprehensive business intelligence infrastructure for the supply chain operations group, aligning with business sponsors and external suppliers to create intelligent analytics solutions
-- Automated manual processes by implementing a data warehouse, resulting in a significant boost in efficiency and productivity
-- Sourced previously inaccessible data through APIs, EDI feeds, and web scraping techniques, enriching the analytical capabilities of the supply chain team
-- Engineered a physical inventory management application for the warehouse, leading to a **70% reduction in downtime** due to increased operational efficiency
-
-#### 🔍 INFORMATION REQUIRED - Inventory Management Application
-**Question:** More technical details on the warehouse inventory application? Technologies? User base? Specific features?
-
-#### Cost Recognition and Invoice Management Solutions
-- Innovated an activity-based cost recognition model for freight and duty expenses aligned with sales activity, enhancing financial accuracy and cost tracking
-- Developed a comprehensive program for managing third-party delivery invoices from email attachments to general ledger records, which included import, audit, and payment functionalities
-- Implemented advanced algorithms for audit processes, such as geo-point classification and Levenshtein fuzzy matching calculations, streamlining the verification and payment workflows
+- Designed comprehensive BI infrastructure for supply chain operations
+- Aligned with business sponsors and external suppliers
+- Data warehouse implementation
+- APIs, EDI feeds, and web scraping for previously inaccessible data
 
 #### Power BI Implementation and Reporting Modernization
-- Executed a company-wide transition from manual Excel reporting to dynamic and actionable Power BI dashboards
-- **Converted over 30 reports** and enhanced decision-making processes
-- Created PO "Lifecycle" reporting by unifying all Purchase Order status reports into a controlled data cube, providing a holistic view of the procurement process
-- Upgraded department reporting from local execution to a network server scheduled environment, optimizing resource utilization and report availability
-
-#### Warehouse Relocation Application Development
-- Developed a bespoke application to manage and track the relocation of warehouse inventory to a new facility, ensuring seamless transition and operation continuity
-- The application provided end-to-end visibility of each pallet throughout the relocation, maintaining a complete chain of custody and fulfilling all **Free Trade Zone (FTZ) documentation requirements**
-
-#### 🔍 INFORMATION REQUIRED - Warehouse Relocation Details
-**Question:** Want more detail on the warehouse relocation project for portfolio section? Technologies? Scale (how many pallets/items)? Duration?
+- Company-wide transition from manual Excel → dynamic Power BI dashboards
+- **Converted over 30 reports**
+- **PO "Lifecycle" reporting:** Unified all Purchase Order status reports into controlled data cube
+- Upgraded from local execution → network server scheduled environment
+- Optimized resource utilization and report availability
 
 ---
 
@@ -1070,23 +1389,36 @@ Beyond the Yass Prize, provided Salesforce development and financial automation 
 
 ## Work Style & Client Approach
 
+### Core Philosophy: "Do It Right or Don't Do It At All"
+David doesn't believe in quick fixes that create long-term technical debt. When clients push for expedient solutions over proper ones, he advocates for the right approach—even when it means having difficult conversations about complexity, cost, or timelines.
+
 ### Communication & Collaboration
-- Practical, direct, outcomes-focused communication (clarity over fluff)
+- **Practical, direct, outcomes-focused:** Clarity over fluff, solutions over politics
+- **Technology advocacy:** Not afraid to push back when clients want to avoid necessary complexity (AI/ML, APIs, automation)
+- **Educational approach:** Help stakeholders understand ROI of doing things right vs. ongoing cost of manual workarounds
+- **Whale Done philosophy:** Focus on solutions and forward momentum rather than blame or conflict
 - Articulating complex data concepts to diverse stakeholders
 - Forging strong relationships across technical and business teams
-- First point of contact for technical support
 
 ### Problem-Solving Approach
+- **Strategic over expedient:** Push back against "just get it done" mentality when it sacrifices long-term value
+- **Long-term cost consideration:** Every solution designed with future maintenance, scalability, and total cost of ownership in mind
+- **Data-driven decisions (Jack Welch style):** "Measure everything, sell hard!" - establish clear KPIs and success metrics
 - Collaborative discovery: observe workflows, document requirements, then automate safely
 - Dissecting complex business requirements to unearth deficiencies and opportunities
-- Deep problem-solving that both nature and code inspire
 - Analytical prowess driving competitive advantage and revenue growth
 
 ### Implementation Philosophy
 - Emphasis on **scalability**, **sustainability**, and **flexibility**
+- **Right technology for the job:** Advocate for appropriate solutions even when they seem complex
 - Enablement mindset: documentation + training so teams can own and evolve solutions
 - Automation-first solutions focused on efficiency and precision
-- Positive reinforcement coaching for user adoption
+- Positive reinforcement coaching (Whale Done) for user adoption
+
+### Pricing & Value Alignment
+- **Results-based pricing model:** ~10% of cost savings aligns success with client outcomes
+- Not about getting rich—about demonstrating clear, measurable ROI
+- Fair compensation for bringing enterprise-grade solutions to mission-driven organizations
 
 ---
 
