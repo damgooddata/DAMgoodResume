@@ -92,9 +92,14 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
 - Advanced automation and workflow integration
 
 ### Salesforce
+- **Salesforce Development:**
+  - **Apex** - Custom code development for complex business logic
+  - **Orchestrated Flows** - Multi-step automated workflows with dynamic routing
+  - **Lightning Web Components (LWC)** - Modern UI component development
+  - **Approval Processes** - Dynamic approval hierarchies and routing
 - **API Integrations:** SOAP, REST, Bulk, Pub/Sub
 - **Certification:** Salesforce Platform API Superbadge
-- **🔍 INFORMATION REQUIRED:** Any other Salesforce experience or certifications?
+- **🔍 INFORMATION REQUIRED:** Any other Salesforce certifications?
 
 ### Data & Analytics Tools
 - **Power BI** - Real-time dashboards, enterprise reporting
@@ -119,6 +124,9 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
 ### E-commerce & SaaS Platform Integrations
 - **Shopify API** - E-commerce platform integration, plugin development, cart management
 - **Clio API** - Legal case management system integration
+- **Bill.com API** - Financial automation, vendor management, automated bill creation and payment workflows
+- **Slack API** - Notification systems, interactive approval buttons, real-time messaging integration
+- **GoodGrants API** - Grant management system integration, applicant data synchronization
 - **SSIS (SQL Server Integration Services)** - ETL automation and data integration
 - **🔍 INFORMATION REQUIRED:** Any other SaaS platforms you integrate with regularly?
 
@@ -419,16 +427,201 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
 ---
 
 ##### The Yass Prize / Center for Educational Reform - Caroline Allen
-**Organization:** Educational reform non-profit
-**Project Type:** [Comprehensive project details]
+**Organization:** Educational reform non-profit (part of Center for Educational Reform)
+**Project Type:** Multi-year grant management platform evolution (2020 - Present, 5+ years)
+**Grant Program:** Yass Prize - Multi-million dollar annual grant program for teachers making impact across America
 
-**🔍 INFORMATION REQUIRED - Yass Prize/CER Project Details:**
-**Note:** User indicated "There is a lot to talk about with what i did for the Yass group, so put a pin in their detail."
-- What systems/solutions were built?
-- What were the key challenges and outcomes?
-- Technologies used?
-- Project scope and duration?
-- Impact/results?
+**Overview:**
+Five-year engagement demonstrating incremental system evolution from manual Excel processes to fully automated web application with multiple API integrations. Each year built upon previous improvements, showcasing ability to understand client needs and systematically enhance solutions.
+
+---
+
+#### **Year 1 (2020): Manual Excel Foundation**
+
+**The Problem:**
+- Grant applicants submitted applications through GoodGrants website
+- Hundreds of applications requiring peer review
+- 3 peer review phases with scores and comments
+- Review documents needed to be hundreds of pages long
+- Documents required multiple updates throughout review cycles
+- Manual data export, cleaning, and formatting
+
+**The Solution:**
+- Manual data export from GoodGrants
+- Advanced Excel data manipulation:
+  - Pivot tables for data organization
+  - VLOOKUP for data relationships
+  - Complex formulas leveraging 20+ years of Excel expertise
+- **Mail merge to Word documents** creating hundreds of pages per review cycle
+- **Enhanced navigation:**
+  - Added hyperlinks for easy navigation in Google Docs viewer
+  - Created table of contents
+  - Structured for digital viewing (not printing)
+- Updated documents manually for each of 3 peer review phases
+
+**Technologies Used:**
+- Microsoft Excel (advanced formulas, pivot tables, VLOOKUP)
+- Microsoft Word (mail merge)
+- Google Docs (document hosting and sharing)
+- Manual data cleaning and transformation
+
+---
+
+#### **Year 2 (2021): Database Automation**
+
+**Evolution:**
+Having gained deep understanding of the process, introduced systematic automation to eliminate manual steps.
+
+**The Solution:**
+- **API Integration:** Built ETL process to pull raw applicant data directly from GoodGrants API (eliminated manual downloads)
+- **SQL Database Implementation:** Stored applicant data in SQL database for centralized reporting
+- **Automated Document Generation:**
+  - Built program that loops through specific data structures
+  - Reports specific details for each applicant systematically
+  - Database updates trigger automatic document regeneration
+- **Multi-cycle support:** System handles all 3 peer review phases with updated scores and comments
+
+**Technologies Used:**
+- GoodGrants API integration
+- SQL database design and management
+- ETL (Extract, Transform, Load) processes
+- Automated document generation scripts
+- Python (implied for ETL and automation)
+
+**Outcomes:**
+- Eliminated manual data downloads
+- Automated document updates across review cycles
+- Reduced errors from manual data handling
+- Faster turnaround for document updates
+
+---
+
+#### **Years 3-4 (2022-2023): Enhanced Database Approach**
+
+**Evolution:**
+Continued to refine and enhance the database-driven approach with additional features and optimizations based on user feedback and evolving requirements.
+
+---
+
+#### **Year 5 (2024): Full Web Application**
+
+**Major Platform Transformation:**
+Proposed and developed complete web application to replace static Word documents with real-time, interactive review interface.
+
+**The Solution:**
+
+**React-Based Web Application:**
+- **Real-time reviewer interface** replacing hundreds-page Word documents
+- **Interactive features:**
+  - Live applicant data viewing
+  - Comment system for reviewers
+  - Tagging system for applicant categorization
+  - Tags pushed back to GoodGrants API for automated advancing/rejecting of applicants
+- **Security implementation:**
+  - User login and authentication system
+  - CAPTCHA protection
+  - Role-based access controls
+  - Security measures for sensitive grant data
+
+**Admin Portal:**
+- Trigger each peer review cycle
+- Manage review phases
+- User management
+- System configuration
+- **Dynamic reporting and dashboards** for grant program oversight
+- Real-time analytics on review progress
+
+**GoodGrants API Integration:**
+- Bi-directional sync
+- Tag updates trigger applicant status changes
+- Automated workflow for advancing/rejecting applicants
+- Eliminated manual status updates in GoodGrants
+
+**Technologies Used:**
+- React (frontend framework)
+- User authentication and authorization
+- CAPTCHA integration
+- GoodGrants API (bidirectional integration)
+- SQL database (backend)
+- Admin dashboard development
+- Real-time data synchronization
+- Dynamic reporting tools
+
+**Outcomes:**
+- **Reduced grant review period by 1 full month**
+- Eliminated static document reviews
+- Real-time collaboration among reviewers
+- Instant applicant status updates
+- Streamlined advancing/rejection workflow
+- Enhanced user experience for reviewers
+- Comprehensive admin oversight and reporting
+
+---
+
+#### **Additional CER Work: Salesforce Automation & Financial Integration**
+
+Beyond the Yass Prize, provided Salesforce development and financial automation for Center for Educational Reform.
+
+**Expense Approval Process with Dynamic Hierarchy:**
+
+**The Solution:**
+- **Orchestrated Salesforce Flows** with dynamic approval routing
+- **Approval hierarchy calculation:**
+  - Based on user's manager
+  - Based on expense request value
+  - Automatic determination of appropriate approver
+- **Custom Lightning Web Components (LWC)** for user interface
+- **Granular expense entry:**
+  - Line item detail for auditing
+  - Example: Cost per night × Number of nights (not just total hotel cost)
+  - Enables easy comparison and audit of expenses
+
+**Bill.com Integration:**
+- **Automated bill creation:** Approved expenses automatically routed to Bill.com as bills
+- **Vendor linkage:** Bill set up for specific vendor
+- **Expedited payment:** Invoice submission against pre-existing bill speeds finance review and payment exponentially
+- **Vendor setup automation:**
+  - First-time vendor detection
+  - Auto-creates vendor in Bill.com
+  - Sends invite link for vendor to set up banking information
+  - Creates turnkey payment process for future invoices
+
+**Slack Integration:**
+- **Requestor notifications:**
+  - Approval confirmation
+  - Rejection notification with reasons
+- **Approver notifications:**
+  - Expense detail in Slack message
+  - **Approve/reject buttons directly in Slack** (no need to log into Salesforce)
+  - Sent to initial approver
+  - Sent to finance approver (2nd approval step)
+- Real-time updates on approval status
+
+**Technologies Used:**
+- Salesforce Apex (custom code)
+- Salesforce Orchestrated Flows
+- Lightning Web Components (LWC)
+- Bill.com API integration
+- Slack API integration
+- Dynamic approval routing logic
+- Vendor management automation
+
+**Outcomes:**
+- Fully automated expense approval workflow
+- Dynamic routing eliminates manual approval assignments
+- Granular expense data for better auditing
+- Turnkey vendor setup and payment process
+- Reduced time from expense request to payment
+- Approve/reject actions directly from Slack
+- Comprehensive financial tracking and compliance
+
+---
+
+**Total Yass Prize/CER Engagement Summary:**
+- **Duration:** 2020 - Present (5+ years)
+- **Evolution:** Manual Excel → Database automation → Full web application
+- **Impact:** Reduced grant cycle by 1 month, eliminated manual processes, created real-time collaboration platform
+- **Scope:** Grant management + Financial automation + Multi-platform integration (GoodGrants, Salesforce, Bill.com, Slack)
 
 #### DAMgoodData Achievements & Approach
 - Built secure, scalable systems using Excel/VBA, Access, and Python for organizations with limited technical infrastructure and diverse user bases
@@ -623,9 +816,12 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
    - Increased revenue channeled to missions
    - See DAMgoodData section for full details
 
-3. **The Yass Prize / Center for Educational Reform**
-   - Educational reform non-profit solutions
-   - 🔍 INFORMATION REQUIRED: Full project details pending
+3. **The Yass Prize / Center for Educational Reform (5-year evolution)**
+   - Multi-million dollar grant management platform
+   - Evolution from Excel to full React web application
+   - **1 full month reduction** in grant review cycle
+   - GoodGrants API, Bill.com, Slack, Salesforce integrations
+   - See DAMgoodData section for comprehensive 5-year project breakdown
 
 #### Enterprise Data Solutions
 1. **Data Ecosystem Optimization - Floor & Decor**
@@ -684,6 +880,14 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
    - SQL Studio deployment for automated reporting
    - See DAMgoodData section for full details
 
+6. **Yass Prize/CER - Salesforce Financial Automation**
+   - Dynamic approval workflows with Orchestrated Flows
+   - Bill.com integration for automated bill creation and payment
+   - Slack integration with interactive approve/reject buttons
+   - Automated vendor setup and onboarding
+   - Turnkey payment processing
+   - See DAMgoodData section for full details
+
 #### Custom Applications & Database Solutions
 1. **NYC Public Schools Swim Meet Data Import**
    - Reverse engineered Access database swim meet software
@@ -696,6 +900,14 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
    - Enhanced existing Access database with advanced features
    - Extensive VBA and custom SQL development
    - See DAMgoodData section for full details
+
+3. **Yass Prize - Grant Management Web Application**
+   - 5-year evolution from Excel to React web app
+   - Real-time reviewer collaboration platform
+   - GoodGrants API bidirectional integration
+   - Admin portal with dynamic reporting
+   - **Reduced grant cycle by 1 full month**
+   - See DAMgoodData section for comprehensive breakdown
 
 3. **Warehouse Inventory Management Application - Floor & Decor**
    - 70% reduction in downtime
@@ -815,10 +1027,16 @@ Launched DAMgoodData to serve faith-based organizations and missionaries by offe
 - **Public Records Processing** - Web scraping, data standardization, compliance
 - **Academic Data Collection** - Research-focused API development and web scraping
 - **SEO & Digital Marketing** - Search optimization, review management
-- **Grant Management Operations** - 🔍 INFORMATION REQUIRED: Details on grant work?
+- **Grant Management Operations** - Multi-million dollar grant program management, applicant review workflows, multi-phase peer review systems
 - **Missionary Field Support** - Operational systems for remote ministry work
 - **Database Reverse Engineering** - Format analysis and system integration
 - **Healthcare Operations** - ETL automation and reporting (SSIS)
+- **Financial Process Automation** - Expense approval workflows, vendor management, automated bill payment
+- **Multi-Platform Integration** - Salesforce + Bill.com + Slack unified workflows
+- **Dynamic Approval Routing** - Hierarchy-based approval logic, value-based routing
+- **Salesforce Custom Development** - Apex, Flows, Lightning Web Components
+- **Peer Review Systems** - Multi-phase review workflows, scoring and commenting systems
+- **Real-time Collaboration Platforms** - Web-based review and approval interfaces
 
 ---
 
