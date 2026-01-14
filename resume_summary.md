@@ -162,6 +162,7 @@ When organizations are willing to invest in doing things right the first time, t
 - **Slack API** - Notification systems, interactive approval buttons, real-time messaging integration
 - **GoodGrants API** - Grant management system integration, applicant data synchronization
 - **SSIS (SQL Server Integration Services)** - ETL automation and data integration
+- **Talend Open Source** - ETL tool for environments with limited system permissions
 - **🔍 INFORMATION REQUIRED:** Any other SaaS platforms you integrate with regularly?
 
 ### AI/ML & RAG Systems
@@ -194,6 +195,11 @@ When organizations are willing to invest in doing things right the first time, t
 - **EDI Feeds** - Electronic Data Interchange integration
 - **API Development & Integration** - Custom API clients and integrations
 - **Dynamic Column Mapping** - Flexible data import from varying file formats
+- **Working in Restricted IT Environments:**
+  - Delivering enterprise applications without robust system permissions
+  - Using open-source tools (Talend) when enterprise tools require excessive permissions
+  - Credential management workarounds before GMSA approval
+  - Navigating IT bureaucracy while maintaining business delivery timelines
 
 ---
 
@@ -771,6 +777,23 @@ Pro sales team selling to major construction projects (hotels, schools) needed t
 - Massive growth pains: sales outpacing warehouse and headcount capacity
 - Hired to build dashboards and make data accessible
 - Also tasked with operational warehouse projects
+
+**The Reality vs. The Job Description:**
+- **Hired for:** Reporting and dashboards
+- **What was actually needed:** Complete data infrastructure overhaul
+- Due to Access database chaos (databases on someone's computer), had to focus on ETL work first to get data staged in data cubes
+- **Leadership:** Hired an employee to focus explicitly on dashboards once data infrastructure was established
+
+**Working on the Business Side, Not IT:**
+- Delivered enterprise-level applications while fighting for system permissions
+- Constant battle with IT for necessary access rights
+- **Took almost a FULL YEAR** to get approval for Group Managed Service Account (GMSA) for deployed applications
+- **Before GMSA approval:** Had to hardcode credentials into programs, then update every time password changed
+- Used **Talend open source ETL tool** (easier to navigate without robust system permissions)
+- Also used SSIS for some ETL work
+
+**Startup Mentality:**
+All special projects (warehouse moves, physical inventory, Houston expansion) were result of working in a growing startup-like company. **Did whatever it took to get the job done.** This approach is evident in the **public success of Floor & Decor** during these years as the company grew from small startup to publicly-traded retail powerhouse opening 2-3 stores per week.
 
 #### Houston Warehouse Expansion Project (First 3-4 Months)
 
