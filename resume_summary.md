@@ -3,9 +3,6 @@
 
 ---
 
-## 🔍 INFORMATION REQUIRED - Brand Voice & Positioning
-**Question:** How prominently should we feature the "DAM that's good data!" messaging? Should this be in the intro, woven throughout, or in a specific brand section? Any other brand personality elements to include?
-
 ---
 
 ## Professional Identity & Summary
@@ -21,8 +18,28 @@ Innovative Data Engineer with over two decades of expertise in managing vast dat
 
 **Mission-Driven Focus:** Resilient, mission-driven technology leader passionate about serving where needs are greatest—supporting missionaries, ministries, and field responders through technology that empowers. Recognized for integrating technical excellence with a servant leadership mindset.
 
-### DAMgoodData Mission
-Founded DAMgoodData with a mission-minded purpose: to serve faith-based organizations and missionaries by offering pro bono or low-cost data automation solutions. Helping businesses optimize operations so good they'll say "DAM that's good data!"
+### DAMgoodData Mission & Philosophy
+
+**Mission Statement:**
+Founded DAMgoodData with a mission-minded purpose: to serve faith-based organizations and missionaries by offering pro bono or low-cost data automation solutions. Bringing big data solutions to smaller organizations that are making a difference in society. Helping businesses optimize operations so good they'll say "DAM that's good data!"
+
+**Core Philosophy: "If You're Going to Do a Job, Do It Right"**
+
+Rather than quick fixes or short-term patches, David advocates for building proper solutions with long-term sustainability in mind. This means:
+
+- **Strategic Over Expedient:** Push back against "just get it done" mentality when it means sacrificing long-term value
+- **Right Technology for the Job:** Advocate for appropriate solutions even when clients resist complexity (AI/ML, API integrations vs. manual processes)
+- **Long-term Cost Consideration:** Every solution designed with future maintenance, scalability, and total cost of ownership in mind
+- **Technology Advocacy:** Help clients understand when investing in the right technology (APIs, automation, AI) delivers exponentially better outcomes than manual workarounds
+
+**Approach & Management Style:**
+
+- **Whale Done Philosophy:** Focus on solutions over emotions or politics. Positive reinforcement and forward momentum over blame or conflict.
+- **Jack Welch Style:** "Measure everything, sell hard!" Data-driven decision making and clear metrics for success.
+- **Results-Based Pricing:** Fair pricing model (~10% of cost savings) that aligns success with client outcomes - not about getting rich, but about demonstrating clear ROI.
+
+**Value Proposition:**
+When organizations are willing to invest in doing things right the first time, the long-term savings, efficiency gains, and operational improvements far exceed the initial investment. DAMgoodData exists to bring enterprise-grade data solutions to mission-driven organizations that might not otherwise have access to this level of expertise.
 
 ---
 
@@ -45,8 +62,25 @@ Founded DAMgoodData with a mission-minded purpose: to serve faith-based organiza
 - **Field-ready solutions for low-tech environments**: Build robust systems that work with limited technical infrastructure
 - **Cross-cultural user training**: Positive reinforcement coaching approach
 
-### 🔍 INFORMATION REQUIRED - Work Style Details
-**Question:** You mention "positive reinforcement coaching" and "cross-cultural user training" - can you provide specific examples or approaches that demonstrate this? Any stories or methodologies worth detailing?
+### Leadership & Work Style Philosophy
+
+**Positive Reinforcement Approach (Whale Done):**
+- Focus on solutions and forward progress rather than dwelling on problems or assigning blame
+- Keep emotions and politics out of technical decisions
+- Celebrate wins and use setbacks as learning opportunities
+- Build confidence in teams through encouragement and support
+
+**Data-Driven Management (Jack Welch Style):**
+- Measure everything: establish clear KPIs and success metrics
+- Make decisions based on data, not assumptions
+- Transparent reporting and accountability
+- "Sell hard" on the value of proper solutions backed by measurable outcomes
+
+**Strategic Advisory Role:**
+- Not afraid to push back when clients want quick fixes over proper solutions
+- Educate clients on long-term implications of technical decisions
+- Advocate for appropriate technology even when it seems complex (AI/ML, APIs, automation)
+- Help organizations understand ROI of doing things right vs. ongoing cost of workarounds
 
 ---
 
@@ -1070,23 +1104,36 @@ Beyond the Yass Prize, provided Salesforce development and financial automation 
 
 ## Work Style & Client Approach
 
+### Core Philosophy: "Do It Right or Don't Do It At All"
+David doesn't believe in quick fixes that create long-term technical debt. When clients push for expedient solutions over proper ones, he advocates for the right approach—even when it means having difficult conversations about complexity, cost, or timelines.
+
 ### Communication & Collaboration
-- Practical, direct, outcomes-focused communication (clarity over fluff)
+- **Practical, direct, outcomes-focused:** Clarity over fluff, solutions over politics
+- **Technology advocacy:** Not afraid to push back when clients want to avoid necessary complexity (AI/ML, APIs, automation)
+- **Educational approach:** Help stakeholders understand ROI of doing things right vs. ongoing cost of manual workarounds
+- **Whale Done philosophy:** Focus on solutions and forward momentum rather than blame or conflict
 - Articulating complex data concepts to diverse stakeholders
 - Forging strong relationships across technical and business teams
-- First point of contact for technical support
 
 ### Problem-Solving Approach
+- **Strategic over expedient:** Push back against "just get it done" mentality when it sacrifices long-term value
+- **Long-term cost consideration:** Every solution designed with future maintenance, scalability, and total cost of ownership in mind
+- **Data-driven decisions (Jack Welch style):** "Measure everything, sell hard!" - establish clear KPIs and success metrics
 - Collaborative discovery: observe workflows, document requirements, then automate safely
 - Dissecting complex business requirements to unearth deficiencies and opportunities
-- Deep problem-solving that both nature and code inspire
 - Analytical prowess driving competitive advantage and revenue growth
 
 ### Implementation Philosophy
 - Emphasis on **scalability**, **sustainability**, and **flexibility**
+- **Right technology for the job:** Advocate for appropriate solutions even when they seem complex
 - Enablement mindset: documentation + training so teams can own and evolve solutions
 - Automation-first solutions focused on efficiency and precision
-- Positive reinforcement coaching for user adoption
+- Positive reinforcement coaching (Whale Done) for user adoption
+
+### Pricing & Value Alignment
+- **Results-based pricing model:** ~10% of cost savings aligns success with client outcomes
+- Not about getting rich—about demonstrating clear, measurable ROI
+- Fair compensation for bringing enterprise-grade solutions to mission-driven organizations
 
 ---
 
