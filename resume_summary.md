@@ -1047,17 +1047,59 @@ Managing invoices for third-party delivery vendors for store purchases resulting
 ### Southeastern Grocers - Supply Chain Auditor
 **Duration:** July 2013 - June 2016
 **Location:** Jacksonville, FL
+**Stores Managed:** All Southeastern Grocers locations (Winn Dixie and Bi-Lo)
 
-#### Key Achievements
+#### Delivery Schedule Optimization & Network Management
+
+**Context:**
+Southeastern Grocers sold their warehouse operations to 3rd party C&S Wholesale. All deliveries managed by 3rd party with contractual penalties for both under-delivery (lost sales) and over-delivery (excess inventory penalties).
+
+**Commodity-Based Delivery Frequency System:**
+- Delivery frequency determined by total tonnage thresholds
+- **Different thresholds per commodity:**
+  - Dry goods: 10,000 lbs threshold = 1 delivery
+  - Frozen: 2,000 lbs threshold = 1 delivery
+- **Example calculation:**
+  - Store with 10,000 lbs weekly frozen demand = 5 frozen deliveries
+  - Same store with 10,000 lbs dry goods demand = 1 dry delivery
+
+**Seasonal Demand Management:**
+- Built dashboard monitoring average demand shifts across all stores
+- **Critical for seasonal impact identification:**
+  - Tourist-driven demand spikes
+  - Example: One store doing **$1M in sales on 4th of July weekend** but not $1M for rest of entire year
+  - Had to identify seasonal shifts **before they occurred** or stores had empty shelves
+
+**Responsibilities:**
+- **Defined number of deliveries per store** based on demand analysis
+- **Justified exceptions** and their contractual expenses to C&S Wholesale
+- **Worked with warehouse logistics teams** to define actual delivery schedules by store (M-W-F patterns)
+- **Constraint management:** Limited trucks and drivers - couldn't hire haphazardly to fulfill demand
+- **Managed delivery schedules for ALL Southeastern Grocers stores** (Winn Dixie and Bi-Lo)
+
+**Technologies Used:**
+- Dashboard development for real-time demand monitoring
+- Network analysis for delivery optimization
+- Seasonal trend analysis and forecasting
+
+**Outcomes:**
+- Prevented empty shelves through proactive seasonal demand identification
+- Minimized contractual penalties for both under and over-delivery
+- Optimized delivery schedules across all stores within truck/driver constraints
+- Ensured service levels during high-demand seasonal periods
+
+---
+
+#### Contract Compliance & Vendor Audit
+
+**Cost Recovery Tool:**
+- Developed and implemented cost comparison tool for auditing third-party vendor invoices
+- **The tool uncovered unpaid rebates of over $2.3 million during a six month audit period**
+
+**Additional Responsibilities:**
 - Responsible for contract compliance by third-party suppliers
-- Developed and implemented network analysis to optimize store deliveries based on seasonality
-- Developed and implemented a cost comparison tool for auditing third-party vendor invoices
-  - **The tool uncovered unpaid rebates of over $2.3 million during a six month audit period**
 - Assisted in the conversion of more than 120 acquisition stores
 - Performed numerous store audits to ensure customers the highest level of service
-
-#### 🔍 INFORMATION REQUIRED - Southeastern Grocers Details
-**Question:** The network analysis for store deliveries - want more detail on this for portfolio? Technologies used? Quantifiable outcomes?
 
 ---
 
@@ -1065,7 +1107,42 @@ Managing invoices for third-party delivery vendors for store purchases resulting
 **Duration:** April 2013 - July 2013
 **Location:** Jacksonville, FL
 
-- Managed promotional products (forecasting and ordering) with third-party suppliers, ensuring the highest service level on promotional items critical to maintaining service level to the stores and achieving sales budgets
+#### Promotional Demand Forecasting & Inventory Management
+
+**Context:**
+Hired in response to Southeastern Grocers selling their warehouse operations to 3rd party C&S Wholesale. Managed the complex balance between ensuring product availability and avoiding excess inventory penalties.
+
+**Primary Responsibility:**
+Managing demand forecasting for advertised promotional deals (2 for $4, Buy One Get One, etc.)
+
+**The Challenge:**
+- Determine average **lift in demand** for each promotion
+- **Multiple factors to consider:**
+  - Product-specific demand patterns
+  - What other products were or were not on sale simultaneously
+  - Cross-promotion effects
+  - Seasonal factors
+- **Define qty warehouse must have on hand**
+- **Dual penalty system:**
+  - If warehouse didn't have enough: **fine C&S for lost sales**
+  - If too much inventory: **pay penalty for excess inventory**
+
+**The Process:**
+- Analyzed historical promotional performance
+- Factored in concurrent promotions and cannibalization effects
+- Set inventory targets balancing lost sales risk vs. excess inventory cost
+- Managed contractual penalties and exceptions with C&S Wholesale
+
+**Technologies Used:**
+- Forecasting and demand analysis tools
+- Promotional lift modeling
+- Inventory optimization
+
+**Outcomes:**
+- Managed promotional inventory levels to minimize both lost sales and excess inventory penalties
+- Ensured high service levels on promotional items critical to sales budgets
+- Balanced complex multi-factor demand forecasting for advertised deals
+- Prepared for promotion to delivery schedule management role
 
 ---
 
