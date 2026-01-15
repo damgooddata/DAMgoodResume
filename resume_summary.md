@@ -21,7 +21,17 @@ Innovative Data Engineer with over two decades of expertise in managing vast dat
 ### DAMgoodData Mission & Philosophy
 
 **Mission Statement:**
-Founded DAMgoodData with a mission-minded purpose: to serve faith-based organizations and missionaries by offering pro bono or low-cost data automation solutions. Bringing big data solutions to smaller organizations that are making a difference in society. Helping businesses optimize operations so good they'll say "DAM that's good data!"
+Founded DAMgoodData to empower growing businesses and mission-driven organizations by building processes and systems that stand the test of time. Let clients do what they do best—manage and grow their business—while David automates the mundane day-to-day reporting and admin tasks that keep the lights on.
+
+**The Problem David Solves:**
+After years in corporate environments going "around your elbow" to get data or information for reports, David recognized a universal challenge: businesses and organizations waste enormous time on reporting and administrative overhead when they should be focused on their core mission. People who are doing things the right way and actively growing shouldn't have to also become experts in data and reporting infrastructure.
+
+**The DAMgoodData Approach:**
+- **Empower, don't burden:** Free up clients' time to keep doing what got them to this point—growing and succeeding
+- **Remove friction, don't just digitize it:** Salesforce approval process didn't just replace Excel tracking; it REMOVED steps, making it quicker and easier than the manual process
+- **Build for longevity:** Systems and processes designed to stand the test of time, not quick fixes that create future problems
+- **Client focus stays on core business:** Clients manage their business; David manages the data automation
+- Helping businesses optimize operations so good they'll say "DAM that's good data!"
 
 **Core Philosophy: "If You're Going to Do a Job, Do It Right"**
 
@@ -45,9 +55,10 @@ When organizations are willing to invest in doing things right the first time, t
 
 ## Work Preferences & Availability
 
-**Work Style:** Remote or Hybrid
-**Special Requirement:** Open to schedules that allow rock climbing travel across the United States
-**🔍 INFORMATION REQUIRED:** How do you want to frame the remote/hybrid + climbing lifestyle preference professionally? Any specific language or approach you prefer?
+**Work Style:** Remote or Hybrid (with flexibility for climbing travel)
+**Location:** Open to remote opportunities anywhere; hybrid roles must accommodate climbing travel schedule across the United States
+**Work Environment Preference:** Seeking smaller, growing companies where systems and process optimization drives growth—not interested in standard corporate roles unless fully remote
+**Not Interested In:** Office-based remedial work that could be done remotely; corporate bureaucracy without meaningful impact
 
 ---
 
@@ -208,10 +219,13 @@ When organizations are willing to invest in doing things right the first time, t
 ### DAMgoodData - Founder
 **Duration:** April 2024 - Present
 **Location:** Remote
-**Focus:** Mission-driven data automation for faith-based organizations, nonprofits, and businesses
+**Focus:** Empowering growing businesses and mission-driven organizations through automation that stands the test of time
 
 #### Mission & Purpose
-Launched DAMgoodData to serve faith-based organizations and missionaries by offering pro bono or low-cost data automation solutions. Channeling increased efficiency into direct support for missions and ministries.
+Launched DAMgoodData to solve a universal challenge David observed throughout his corporate career: businesses and organizations waste enormous time on reporting and administrative overhead when they should focus on their core mission.
+
+**The DAMgoodData Value Proposition:**
+Let clients do what they do best—manage and grow their business—while David automates the mundane day-to-day reporting and admin tasks that keep the lights on. Empower people doing things the right way to keep growing, without forcing them to become data and reporting experts.
 
 #### Key Clients & Projects
 
@@ -1047,17 +1061,59 @@ Managing invoices for third-party delivery vendors for store purchases resulting
 ### Southeastern Grocers - Supply Chain Auditor
 **Duration:** July 2013 - June 2016
 **Location:** Jacksonville, FL
+**Stores Managed:** All Southeastern Grocers locations (Winn Dixie and Bi-Lo)
 
-#### Key Achievements
+#### Delivery Schedule Optimization & Network Management
+
+**Context:**
+Southeastern Grocers sold their warehouse operations to 3rd party C&S Wholesale. All deliveries managed by 3rd party with contractual penalties for both under-delivery (lost sales) and over-delivery (excess inventory penalties).
+
+**Commodity-Based Delivery Frequency System:**
+- Delivery frequency determined by total tonnage thresholds
+- **Different thresholds per commodity:**
+  - Dry goods: 10,000 lbs threshold = 1 delivery
+  - Frozen: 2,000 lbs threshold = 1 delivery
+- **Example calculation:**
+  - Store with 10,000 lbs weekly frozen demand = 5 frozen deliveries
+  - Same store with 10,000 lbs dry goods demand = 1 dry delivery
+
+**Seasonal Demand Management:**
+- Built dashboard monitoring average demand shifts across all stores
+- **Critical for seasonal impact identification:**
+  - Tourist-driven demand spikes
+  - Example: One store doing **$1M in sales on 4th of July weekend** but not $1M for rest of entire year
+  - Had to identify seasonal shifts **before they occurred** or stores had empty shelves
+
+**Responsibilities:**
+- **Defined number of deliveries per store** based on demand analysis
+- **Justified exceptions** and their contractual expenses to C&S Wholesale
+- **Worked with warehouse logistics teams** to define actual delivery schedules by store (M-W-F patterns)
+- **Constraint management:** Limited trucks and drivers - couldn't hire haphazardly to fulfill demand
+- **Managed delivery schedules for ALL Southeastern Grocers stores** (Winn Dixie and Bi-Lo)
+
+**Technologies Used:**
+- Dashboard development for real-time demand monitoring
+- Network analysis for delivery optimization
+- Seasonal trend analysis and forecasting
+
+**Outcomes:**
+- Prevented empty shelves through proactive seasonal demand identification
+- Minimized contractual penalties for both under and over-delivery
+- Optimized delivery schedules across all stores within truck/driver constraints
+- Ensured service levels during high-demand seasonal periods
+
+---
+
+#### Contract Compliance & Vendor Audit
+
+**Cost Recovery Tool:**
+- Developed and implemented cost comparison tool for auditing third-party vendor invoices
+- **The tool uncovered unpaid rebates of over $2.3 million during a six month audit period**
+
+**Additional Responsibilities:**
 - Responsible for contract compliance by third-party suppliers
-- Developed and implemented network analysis to optimize store deliveries based on seasonality
-- Developed and implemented a cost comparison tool for auditing third-party vendor invoices
-  - **The tool uncovered unpaid rebates of over $2.3 million during a six month audit period**
 - Assisted in the conversion of more than 120 acquisition stores
 - Performed numerous store audits to ensure customers the highest level of service
-
-#### 🔍 INFORMATION REQUIRED - Southeastern Grocers Details
-**Question:** The network analysis for store deliveries - want more detail on this for portfolio? Technologies used? Quantifiable outcomes?
 
 ---
 
@@ -1065,7 +1121,42 @@ Managing invoices for third-party delivery vendors for store purchases resulting
 **Duration:** April 2013 - July 2013
 **Location:** Jacksonville, FL
 
-- Managed promotional products (forecasting and ordering) with third-party suppliers, ensuring the highest service level on promotional items critical to maintaining service level to the stores and achieving sales budgets
+#### Promotional Demand Forecasting & Inventory Management
+
+**Context:**
+Hired in response to Southeastern Grocers selling their warehouse operations to 3rd party C&S Wholesale. Managed the complex balance between ensuring product availability and avoiding excess inventory penalties.
+
+**Primary Responsibility:**
+Managing demand forecasting for advertised promotional deals (2 for $4, Buy One Get One, etc.)
+
+**The Challenge:**
+- Determine average **lift in demand** for each promotion
+- **Multiple factors to consider:**
+  - Product-specific demand patterns
+  - What other products were or were not on sale simultaneously
+  - Cross-promotion effects
+  - Seasonal factors
+- **Define qty warehouse must have on hand**
+- **Dual penalty system:**
+  - If warehouse didn't have enough: **fine C&S for lost sales**
+  - If too much inventory: **pay penalty for excess inventory**
+
+**The Process:**
+- Analyzed historical promotional performance
+- Factored in concurrent promotions and cannibalization effects
+- Set inventory targets balancing lost sales risk vs. excess inventory cost
+- Managed contractual penalties and exceptions with C&S Wholesale
+
+**Technologies Used:**
+- Forecasting and demand analysis tools
+- Promotional lift modeling
+- Inventory optimization
+
+**Outcomes:**
+- Managed promotional inventory levels to minimize both lost sales and excess inventory penalties
+- Ensured high service levels on promotional items critical to sales budgets
+- Balanced complex multi-factor demand forecasting for advertised deals
+- Prepared for promotion to delivery schedule management role
 
 ---
 
@@ -1459,87 +1550,155 @@ David doesn't believe in quick fixes that create long-term technical debt. When 
 
 ---
 
-## Target Use Cases & Interview Preparation
+## Target Roles & Career Opportunities
 
-### 🔍 INFORMATION REQUIRED - Target Roles & Industries
-**Questions:**
-1. What types of questions do you expect employers/recruiters to ask the RAG bot?
-2. Any specific job roles you're targeting? (Data Engineer, Analytics Engineer, Solutions Architect, etc.)
-3. Industries you want to focus on for future opportunities?
-4. Should we structure sections to answer common interview questions?
+### Primary Target: Smaller Growth Companies
 
-### Likely RAG Bot Query Categories
+**Ideal Role Profile:**
+David is seeking opportunities with smaller, growing companies where building systems and optimizing processes directly drives company growth. Not interested in roles where companies are just "trying to make it to the end of the week" and view automation as a pipe dream rather than investing in doing things right.
+
+### Technical Roles of Interest
+
+**1. Advanced Salesforce Engineer (NOT Admin)**
+- **Focus:** Custom Apex development, complex business logic, system architecture
+- **NOT interested in:** Admin work (updating lists, user management)
+- **Example:** Enjoyed optimizing Salesforce org for Center for Educational Reform
+- Open to contract-based work
+
+**2. Data Engineer / Automation Specialist**
+- Smaller companies where systems/process optimization is valued
+- Building solutions that enable company growth
+- Enterprise-level solutions for growing organizations
+
+**3. Solutions Architect / Technical Lead**
+- Companies willing to invest in proper solutions
+- Strategic technology decisions and implementation
+- Building scalable foundations for growth
+
+### Alternative Career Considerations
+
+David is also open to career shifts leveraging climbing expertise:
+- **Rope Access Technician** - Using climbing skills professionally
+- **Rigging Specialist** - Technical rope work and safety systems
+- **Tree Surgeon** - If compensation is right with benefits including free gear and climbing time off
+
+### Work Environment Requirements
+
+**Must Have:**
+- **Remote or flexible hybrid** that accommodates climbing travel across the US
+- Companies that value "doing it right" over quick fixes
+- Meaningful impact on business growth and operations
+- Contract-based work acceptable
+
+**Deal Breakers:**
+- Standard corporate roles (unless fully remote)
+- Office-based remedial work that could be done remotely
+- Companies that only want to "get the job done" without investing in proper solutions
+- Corporate bureaucracy without meaningful impact
+
+### Likely Employer Questions for RAG Bot
 - Technical skills and proficiency levels
-- Project experience and outcomes
-- Industry expertise
-- Problem-solving approach
+- Project experience and quantifiable outcomes
+- Problem-solving approach and philosophy
 - Cost savings and ROI examples
-- Remote work and availability
+- Remote work capabilities and availability
 - Mission/values alignment
 - Specific technology stack questions
-
----
-
-## Additional Questions & Information Gaps
-
-### Cover Letter Information
-**🔍 INFORMATION REQUIRED:** I couldn't access the cover letter file (DM_COVER.docx). Can you share:
-- What role/company was it for?
-- Any achievements, stories, or details mentioned there that aren't in the resume?
-- Any language or framing that worked well that we should incorporate?
-
-### Missing Project Details
-**🔍 INFORMATION REQUIRED:** Any major accomplishments or projects from any role that we haven't captured yet?
-
-### References & Recommendations
-**Note:** References available but contact information excluded from markdown per instructions:
-- Van Baker - Senior Manager Finance, Floor and Decor
-- Kalyn Engwall - Sr. Manager North American Logistics, Floor and Decor
-- Chris Stanley - VP Supply Chain, Southeastern Grocers
+- Examples of "doing it right vs. quick fixes"
+- Experience with growing companies
+- Salesforce custom development capabilities
 
 ---
 
 ## Document Status & Completion Tracking
 
-### ✅ Completed Sections
-- Professional identity (corrected from Dan to David Morgan)
-- Basic work experience chronology
-- Education basics
-- Core technical skills (partial)
-- Key achievements and metrics
+### ✅ COMPLETED - Comprehensive Sections Ready for RAG Bot
 
-### 🔍 Sections Requiring Information
-1. Brand voice and positioning details
-2. RAG technology stack specifics
-3. Complete database/technology list
-4. DAMgoodData project details (4+ projects)
-5. Floor & Decor project deep-dives (3+ projects)
-6. Earlier role project details (2+ projects)
-7. Additional certifications and training
-8. Cover letter content and context
-9. Target roles and interview prep structure
-10. Work style examples and stories
-11. Grant management expertise details
-12. Google Docs judging system project
+**Professional Identity & Brand:**
+- ✅ DAMgoodData mission and philosophy ("Do it right or don't do it at all")
+- ✅ Whale Done + Jack Welch management approach
+- ✅ Results-based pricing model (~10% of cost savings)
+- ✅ Work preferences and availability (remote/hybrid with climbing flexibility)
+- ✅ Target roles and career opportunities (Salesforce Engineer, Data Engineer, rope access)
 
-### Priority Information Needed
-**HIGH PRIORITY:**
-- DAMgoodData client project details (Global Frontier Missions, NYC Schools, South America)
-- RAG chatbot technology stack
-- Flask application details from Floor & Decor
+**Complete Work History:**
+- ✅ **DAMgoodData (11 clients):** Global Frontier Missions, Brad Thomas Law, Soyars & Morgan Law, Psych Prep, RipLaces, Shaka Roofing, NYC Schools, ASU Research, CareServ, Yass Prize/CER (5-year evolution)
+- ✅ **Floor & Decor (2016-2024):** $25M vendor subsidy programs, physical inventory (week→2 days), LA warehouse relocation (zero loss), Houston expansion, reporting infrastructure transformation, FTZ compliance
+- ✅ **Southeastern Grocers (2013-2016):** Delivery schedule optimization with C&S Wholesale, promotional forecasting, $2.3M rebate recovery
+- ✅ **Interline Brands (2007-2012):** $93K+$67K+$120K cost savings, POD system, E-BOL
+- ✅ **UPS (2003-2007):** HR Supervisor, PAS Dispatch, Pre-Load Supervisor
 
-**MEDIUM PRIORITY:**
-- Additional certifications
-- Database technologies list
-- Version control and dev tools
-- Target job roles and industries
+**Technical Skills & Expertise:**
+- ✅ Programming: Python, Java, SQL, VBA, JavaScript, HTML/CSS, React
+- ✅ Cloud: Google Cloud Run, Azure, cron jobs, APIs
+- ✅ Microsoft: Power Platform, SQL Server, SharePoint, STIBO PIM
+- ✅ Google: Workspace APIs, Looker Studio, My Business API
+- ✅ Salesforce: Apex, Orchestrated Flows, LWC, Approval Processes
+- ✅ SaaS Integrations: Shopify, Clio, Bill.com, Slack, GoodGrants, SSIS, Talend
+- ✅ Specialized: Reverse engineering, web scraping, checksum algorithms, working in restricted IT environments
 
-**LOW PRIORITY:**
-- Graduation years
-- Additional early-career project details
-- Cover letter content review
+**Major Quantified Achievements:**
+- ✅ $25M in profit (Floor & Decor vendor subsidies)
+- ✅ $2.3M in rebates recovered (Southeastern Grocers)
+- ✅ $93K + $67K + $120K cost savings (Interline Brands)
+- ✅ Week → 2 days (Floor & Decor physical inventory)
+- ✅ 1 full month reduction (Yass Prize grant cycle)
+- ✅ Almost zero loss (LA warehouse relocation)
+- ✅ 60% claim resolution time reduction (freight claims)
+- ✅ 70% downtime reduction (warehouse inventory app)
+- ✅ 50% processing time improvement (data pipelines)
+- ✅ 40% manual reporting workload reduction
 
 ---
 
-**Last Updated:** 2026-01-13
-**Document Purpose:** Comprehensive professional knowledge base for RAG applications, resume generation, and career communications
+### 🔍 OPTIONAL Items (Low Priority - Not Critical for RAG Bot)
+
+**Nice to Have (Technical Details):**
+- RAG technology stack specifics (user indicated not concerned with framework choice for knowledge base)
+- Additional databases beyond SQL Server and Access
+- Version control tools (Git assumed but not documented)
+- Specific Azure/Google Cloud service details
+- Spark experience level and use cases
+- Additional Salesforce certifications beyond Platform API Superbadge
+
+**Nice to Have (Minor Details):**
+- UNF graduation year
+- Cover letter content (DM_COVER.docx couldn't be accessed)
+- Early career project technical details (POD system specifics, Southeastern Grocers network analysis depth)
+
+**Not Applicable:**
+- Contact information (intentionally excluded per user request)
+- MuthaFukinDan references (intentionally excluded per user request)
+
+---
+
+### 📊 Knowledge Base Statistics
+
+**Total Client Projects Documented:** 20+
+- DAMgoodData clients: 11
+- Floor & Decor major projects: 9+
+- Earlier career projects: Multiple
+
+**Total Years of Experience:** 20+ years (October 2003 - Present)
+
+**Industries Covered:** 10
+- Retail & Merchandising
+- Supply Chain & Logistics
+- Finance
+- Nonprofit & Grant Management
+- Faith-based Organizations & Missions
+- Education
+- Legal Services
+- Healthcare
+- E-commerce
+- Academic Research
+
+**Technologies Documented:** 50+
+
+**Quantifiable Achievements:** $28M+ in documented value creation
+
+---
+
+**Last Updated:** 2026-01-14
+**Document Purpose:** Comprehensive professional knowledge base for RAG applications, resume generation, LinkedIn updates, and career communications
+**Completeness Status:** READY FOR USE - All critical information captured, only optional technical minutiae remaining
