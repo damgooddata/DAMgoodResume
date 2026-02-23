@@ -8,9 +8,9 @@
 ## Professional Identity & Summary
 
 **Name:** David A. Morgan
-**Brand:** DAMgoodData (Founded April 2024)
+**Brand:** DAMgoodData (Founded August 2020)
 **Title:** Data Automation Specialist / Data Engineer
-**Location:** Atlanta, GA (Clarkston)
+**Location:** Atlanta, GA (REMOTE), looking to find job in mountain town area like Chattanooga or Reno...
 **Experience:** 20+ years (October 2003 - Present)
 
 ### Professional Summary
@@ -217,7 +217,7 @@ When organizations are willing to invest in doing things right the first time, t
 ## Professional Experience
 
 ### DAMgoodData - Founder
-**Duration:** April 2024 - Present
+**Duration:** August 2020 - Present
 **Location:** Remote
 **Focus:** Empowering growing businesses and mission-driven organizations through automation that stands the test of time
 
@@ -1478,7 +1478,7 @@ Managing demand forecasting for advertised promotional deals (2 for $4, Buy One 
 ### University of North Florida
 **Degree:** B.S. Business Administration
 **Concentration:** Logistics and Supply Chain Management
-**🔍 INFORMATION REQUIRED:** Graduation year? Any honors or notable achievements?
+**I didnt graduate, but i try not to mention this unless someone explicitly ask did you graduate.
 
 ### Florida State College of Jacksonville
 **Degree:** B.S. Business Administration (Core Studies)

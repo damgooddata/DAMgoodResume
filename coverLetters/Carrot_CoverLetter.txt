@@ -1,0 +1,23 @@
+Dear Engineering Hiring Team at Carrot,
+
+As an innovative technology leader with over two decades of experience building robust data ecosystems and scalable software solutions, I was immediately drawn to the Software Engineer role at Carrot. My career has been defined by a mission-driven focus—serving where needs are greatest through technology that empowers—which aligns perfectly with Carrot’s commitment to helping members get the care and support they need.
+
+I thrive in environments that require a balance between rapid delivery and long-term technical maintainability. Here is how my experience matches the Carrot engineering profile:
+
+Full-Stack Development & Product Ownership: I have extensive experience building both internal efficiency tools and member-facing products. For The Yass Prize, I led a multi-year evolution from manual processes to a full React-based web application with a bidirectional API integration, which reduced the grant review cycle by a full month.
+
+Balancing Technical Debt with Innovation: My core philosophy is "If you’re going to do a job, do it right." I advocate for strategic technology choices over expedient patches, ensuring that systems are scalable and maintainable while still delivering the "quick wins" necessary for a fast-paced business.
+
+Cloud Infrastructure & Efficiency: I have deep expertise in Microsoft Azure and Google Cloud Platform, designing automated pipelines and serverless compute environments (Cloud Run) that drive operational efficiency. At Floor & Decor, I engineered a Python-based platform that generated $25 million in annual profit by automating complex vendor subsidy programs.
+
+AI-Assisted Development & Expert RAG Implementation: I am an advocate for AI-assisted tools and have moved beyond mere experimentation into building production-grade AI services. I have architected Retrieval-Augmented Generation (RAG) systems using LangChain and Chroma vector databases to create internal guides and automated solution-architecting tools.
+
+One of my primary strengths is "bringing order to chaos" in high-pressure situations. Whether I am reverse-engineering legacy databases to automate data imports for NYC Public Schools or managing real-time inventory for massive warehouse relocations, I take full ownership of technical outcomes and user experience.
+
+I invite you to explore my own AI-assisted tool, "Computron," at www.damgooddata.com. It is a RAG-based bot I built to analyze data problems and propose architectural solutions based on my past project library—a testament to my passion for building tools that reduce friction and deliver immediate value.
+
+I am eager to bring my "do it right" mindset and deep technical toolkit to the Carrot team to build resilient, high-quality features for your members.
+
+Regards,
+David A. Morgan 
+Data Automation Specialist / Founder, DAMgoodData

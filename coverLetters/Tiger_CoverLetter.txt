@@ -1,0 +1,23 @@
+Dear Hiring Team at Tiger Analytics,
+
+As a technology leader with over 20 years of experience managing vast data ecosystems and designing robust automation frameworks, I was immediately drawn to the Data Scientist opening at Tiger Analytics. Your reputation as a trusted partner for Fortune 500 companies resonates with my career-long focus on transforming disordered environments into high-value, structured systems that drive significant revenue growth.
+
+Throughout my career, I have prioritized building "proper" solutions that emphasize long-term sustainability over quick fixes. This philosophy aligns perfectly with your need for scalable, robust analytics engines. Here is how my background specifically meets your requirements:
+
+Advanced AI & RAG Architectures: I have successfully engineered Retrieval-Augmented Generation (RAG) systems, including chatbots trained on internal SOPs and FAQs to empower teams with real-time process navigation.
+
+Proven Business Value: In my tenure at Floor and Decor, I built a Python-based automation platform that generated $25 million in profit in a single year by replacing manual processes with sophisticated cost-recovery algorithms.
+
+Technical Ecosystem Mastery: I possess deep expertise in Python, SQL, and cloud platforms like Google Cloud Platform (GCP) and Azure. I am experienced in building data products using GCP Cloud Run, cron jobs, and complex API integrations across diverse SaaS platforms such as Salesforce, Shopify, and Bill.com.
+
+Infrastructure & Scalability: Beyond model development, I have a strong background in data engineering, including Apache Spark, SSIS, and the design of comprehensive BI infrastructures that align with business sponsors and external suppliers.
+
+Leadership & Mentorship: My management style is rooted in the "Whale Done" philosophy, focusing on positive reinforcement and solution-oriented progress. I have extensive experience in cross-cultural user training and am eager to mentor junior team members to promote best practices in AI and data engineering.
+
+Whether I am reverse-engineering Access databases to automate NYC Public School swim meet data or building a multi-year grant management platform that reduced review cycles by a full month, I am driven to deliver enterprise-grade solutions that are both innovative and ethical. I am particularly interested in applying my experience with complex data classification and standardization algorithms to your insurance-specific use cases.
+
+I would welcome the opportunity to discuss how my 20-year history of "doing it right" can help Tiger Analytics continue building the world's best global analytics consulting team.
+
+Best regards,
+
+David A. Morgan
