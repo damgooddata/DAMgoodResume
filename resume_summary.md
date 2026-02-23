@@ -7,10 +7,10 @@
 
 ## Professional Identity & Summary
 
-**Name:** David A. Morgan
+**Name:** David Morgan
 **Brand:** DAMgoodData (Founded August 2020)
 **Title:** Data Automation Specialist / Data Engineer
-**Location:** Atlanta, GA (REMOTE), looking to find job in mountain town area like Chattanooga or Reno...
+**Location:** Atlanta, GA (REMOTE), looking to find job in mountain town area like Chattanooga or Reno, else remote...
 **Experience:** 20+ years (October 2003 - Present)
 
 ### Professional Summary
