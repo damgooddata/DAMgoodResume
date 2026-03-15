@@ -18,6 +18,7 @@ When the chatbot receives a client message, it should reference these files in o
 8. **`proof_points.md`** — Concrete achievements and evidence to reference
 9. **`domain_expertise.md`** — Technical capabilities, industry experience, and role-fit translations
 10. **`client_history_schema.md`** — Schema for logging and tracking client communication history
+11. **`anti_patterns.md`** - Schema for what not to say
 
 ## File Purposes
 
