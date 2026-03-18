@@ -1,0 +1,48 @@
+task_id,phase,task_name,assignee,role,start_date,end_date,duration_days,predecessor,dependency_type,pct_complete,status,priority,is_milestone,notes
+1,Planning,Project Kickoff Meeting,Sarah Chen,Project Manager,2026-04-06,2026-04-06,1,,,,Complete,High,Yes,Align stakeholders on scope and timeline
+2,Planning,Gather Requirements from Department Leads,Sarah Chen,Project Manager,2026-04-07,2026-04-11,5,1,FS,100,Complete,High,No,Interviews with 6 department leads
+3,Planning,Define Project Scope Document,Sarah Chen,Project Manager,2026-04-14,2026-04-16,3,2,FS,100,Complete,High,No,Includes budget constraints and success criteria
+4,Planning,Identify Vendor Shortlist,Marcus Rivera,Procurement Lead,2026-04-14,2026-04-18,5,2,FS,100,Complete,Medium,No,Minimum 3 vendors per category
+5,Planning,Scope Approval,Sarah Chen,Project Manager,2026-04-17,2026-04-17,1,3,FS,100,Complete,High,Yes,Sign-off from VP Operations
+6,Discovery,Audit Current Infrastructure,James Okoro,IT Lead,2026-04-21,2026-04-30,8,5,FS,100,Complete,High,No,Server room and network inventory
+7,Discovery,Audit Current Workflows and Pain Points,Sarah Chen,Project Manager,2026-04-21,2026-04-25,5,5,FS,100,Complete,Medium,No,Document manual processes and bottlenecks
+8,Discovery,Data Migration Assessment,James Okoro,IT Lead,2026-05-01,2026-05-09,7,6,FS,85,In Progress,High,No,Estimate volume and complexity of data to migrate
+9,Discovery,Vendor Demos and Evaluation,Marcus Rivera,Procurement Lead,2026-04-28,2026-05-09,10,4,FS,70,In Progress,High,No,Scorecard evaluation across cost and capability
+10,Discovery,Risk Assessment and Mitigation Plan,Sarah Chen,Project Manager,2026-05-05,2026-05-09,5,7,FS,60,In Progress,High,No,Identify top 10 risks with mitigation owners
+11,Discovery,Discovery Phase Complete,Sarah Chen,Project Manager,2026-05-12,2026-05-12,1,"8,9,10",FS,0,Not Started,High,Yes,Gate review before design phase begins
+12,Design,System Architecture Design,James Okoro,IT Lead,2026-05-13,2026-05-23,9,11,FS,0,Not Started,High,No,Cloud vs on-prem decision and network topology
+13,Design,Database Schema Design,Priya Patel,Data Engineer,2026-05-13,2026-05-21,7,11,FS,0,Not Started,High,No,Normalize tables and define relationships
+14,Design,UI/UX Wireframes,Angela Torres,UX Designer,2026-05-13,2026-05-27,11,11,FS,0,Not Started,Medium,No,Desktop and mobile layouts for 8 core screens
+15,Design,API Integration Mapping,James Okoro,IT Lead,2026-05-26,2026-06-03,7,12,FS,0,Not Started,High,No,Define endpoints for 4 external systems
+16,Design,Reporting and Dashboard Requirements,Priya Patel,Data Engineer,2026-05-22,2026-05-29,6,13,FS,0,Not Started,Medium,No,KPIs and refresh frequency for 12 dashboards
+17,Design,Security and Compliance Review,Marcus Rivera,Procurement Lead,2026-05-26,2026-05-30,5,12,FS,0,Not Started,High,No,SOC 2 and GDPR alignment check
+18,Design,Design Review and Approval,Sarah Chen,Project Manager,2026-06-04,2026-06-05,2,"14,15,16,17",FS,0,Not Started,High,Yes,Architecture board sign-off required
+19,Build,Environment Setup (Dev/Staging/Prod),James Okoro,IT Lead,2026-06-08,2026-06-12,5,18,FS,0,Not Started,High,No,Provision cloud resources and CI/CD pipelines
+20,Build,Core Database Build,Priya Patel,Data Engineer,2026-06-08,2026-06-19,10,18,FS,0,Not Started,High,No,Build tables and stored procedures and indexes
+21,Build,Backend API Development,James Okoro,IT Lead,2026-06-15,2026-07-03,15,19,FS,0,Not Started,High,No,RESTful services for all core modules
+22,Build,Frontend Development Sprint 1,Angela Torres,UX Designer,2026-06-15,2026-06-26,10,19,FS,0,Not Started,High,No,Authentication and navigation and dashboard shell
+23,Build,ETL Pipeline Development,Priya Patel,Data Engineer,2026-06-22,2026-07-03,10,20,FS,0,Not Started,High,No,Data migration scripts and scheduled refresh jobs
+24,Build,Frontend Development Sprint 2,Angela Torres,UX Designer,2026-06-29,2026-07-10,10,22,FS,0,Not Started,Medium,No,Data entry forms and reporting views
+25,Build,API Integration Build,James Okoro,IT Lead,2026-07-06,2026-07-17,10,21,FS,0,Not Started,High,No,Connect to Salesforce and payment gateway and email service and calendar
+26,Build,Notification and Alerting System,James Okoro,IT Lead,2026-07-06,2026-07-14,7,21,SS,0,Not Started,Medium,No,Email and Slack and in-app notification triggers
+27,Build,Report and Dashboard Build,Priya Patel,Data Engineer,2026-07-06,2026-07-17,10,23,FS,0,Not Started,Medium,No,Build 12 dashboards with drill-down capability
+28,Build,Core Build Complete,Sarah Chen,Project Manager,2026-07-17,2026-07-17,1,"24,25,26,27",FS,0,Not Started,High,Yes,All modules feature-complete for testing
+29,Testing,Unit Testing and Code Review,James Okoro,IT Lead,2026-07-20,2026-07-24,5,28,FS,0,Not Started,High,No,Minimum 80% code coverage target
+30,Testing,Integration Testing,Priya Patel,Data Engineer,2026-07-20,2026-07-28,7,28,FS,0,Not Started,High,No,End-to-end data flow validation across all systems
+31,Testing,User Acceptance Testing (UAT),Sarah Chen,Project Manager,2026-07-28,2026-08-07,9,"29,30",FS,0,Not Started,High,No,Test scripts executed by 10 business users
+32,Testing,Performance and Load Testing,James Okoro,IT Lead,2026-07-28,2026-08-04,6,29,FS,0,Not Started,Medium,No,Simulate 500 concurrent users
+33,Testing,Security Penetration Testing,Marcus Rivera,Procurement Lead,2026-07-28,2026-08-01,5,29,FS,0,Not Started,High,No,Third-party vendor engagement
+34,Testing,Bug Fix Sprint,James Okoro,IT Lead,2026-08-10,2026-08-19,8,31,FS,0,Not Started,High,No,Prioritize critical and high severity defects
+35,Testing,Regression Testing,Priya Patel,Data Engineer,2026-08-20,2026-08-26,5,34,FS,0,Not Started,High,No,Validate all fixes without new defects introduced
+36,Testing,UAT Sign-Off,Sarah Chen,Project Manager,2026-08-27,2026-08-27,1,35,FS,0,Not Started,High,Yes,Business owner approval to proceed to deployment
+37,Deployment,Production Environment Prep,James Okoro,IT Lead,2026-08-28,2026-09-02,4,36,FS,0,Not Started,High,No,Final configuration and SSL certs and DNS routing
+38,Deployment,Data Migration (Production),Priya Patel,Data Engineer,2026-09-03,2026-09-09,5,37,FS,0,Not Started,High,No,Full data load with validation checksums
+39,Deployment,End User Training Sessions,Sarah Chen,Project Manager,2026-09-03,2026-09-11,7,37,SS,0,Not Started,High,No,4 sessions covering all user roles
+40,Deployment,Create User Documentation and SOPs,Angela Torres,UX Designer,2026-09-03,2026-09-11,7,37,SS,0,Not Started,Medium,No,Quick-start guides and video walkthroughs
+41,Deployment,Go-Live Deployment,James Okoro,IT Lead,2026-09-12,2026-09-12,1,"38,39,40",FS,0,Not Started,High,Yes,Production cutover with rollback plan ready
+42,Deployment,Post Go-Live Monitoring (48 hr),James Okoro,IT Lead,2026-09-14,2026-09-15,2,41,FS,0,Not Started,High,No,War room staffed for immediate issue resolution
+43,Closeout,Hypercare Support Period,James Okoro,IT Lead,2026-09-16,2026-10-01,12,42,FS,0,Not Started,Medium,No,Dedicated support for first 2 weeks post-launch
+44,Closeout,Post-Implementation Review,Sarah Chen,Project Manager,2026-10-02,2026-10-06,3,43,FS,0,Not Started,Medium,No,Lessons learned and performance vs KPIs
+45,Closeout,Knowledge Transfer to Support Team,James Okoro,IT Lead,2026-10-02,2026-10-08,5,43,FS,0,Not Started,Medium,No,Runbooks and escalation procedures and access handoff
+46,Closeout,Final Project Report and Sign-Off,Sarah Chen,Project Manager,2026-10-09,2026-10-10,2,"44,45",FS,0,Not Started,High,Yes,Executive summary with budget vs actual and next steps
+47,Closeout,Project Complete,Sarah Chen,Project Manager,2026-10-10,2026-10-10,1,46,FS,0,Not Started,High,Yes,Archive project files and close project
