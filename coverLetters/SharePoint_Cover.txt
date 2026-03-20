@@ -1,0 +1,60 @@
+Hi,
+
+Thank you for reaching out and inviting me to apply. This is exactly the kind of project I enjoy working on. SharePoint folder automation with permission management is something I've built at scale before, and I'd be happy to help.
+
+At Floor and Decor, I built a Python-based system using the Microsoft Graph API that managed SharePoint access for over 400 vendors. The application integrated with our Product Information Management (PIM) system, which served as the source of truth for vendor contacts and their assigned groups. Based on that data, my system automatically provisioned and de-provisioned SharePoint folder access, so the right people had access to the right folders at all times without anyone managing it manually. That same system generated and distributed over 10,000 files and emails per cycle, placing vendor-specific remittance documents into their secured SharePoint directories. The entire process ran hands-off.
+
+For your project, I'd approach it the same way: Python and the Microsoft Graph API to programmatically create the folder and subfolder structure, assign permission levels, and set up the API auto-creation workflow so the process is repeatable and accurate every time. Before diving in, I'd want to understand how you're managing your internal employee access today. Are you using Entra ID (formerly Azure AD) for identity and security groups? That answer shapes how we structure permissions and automate user assignment.
+
+I'm genuinely excited about this one. SharePoint automation is something I find fun to build, and I'm confident I can deliver a clean, scalable solution.
+
+David Morgan
+DAMgoodData
+
+
+FOLLOW-UP QUESTIONS:
+
+---
+
+1. Are you able to meet in person at our office for kickoff meeting and discussion of details?
+
+I appreciate the offer, but at the current rate I'm not able to travel for in-person meetings. I'm happy to do a thorough kickoff over Zoom. I've run every client engagement through DAMgoodData remotely and it has never been a barrier to understanding the requirements or delivering results. I'll come prepared with the right questions, and we can screen-share through your current SharePoint environment so I can see exactly what we're working with.
+
+---
+
+2. Provide at least 2 customer references that you have used SharePoint to create this complex level of folders with many sub and subsubfolders and different user levels.
+
+I don't provide client contact information for reference calls, but I'm happy to walk you through the work in detail and show you the actual codebase.
+
+My primary SharePoint automation project was at Floor and Decor, where I built a full Python application using the Microsoft Graph API that managed folder structures and permission levels for over 400 vendors. The system integrated with a PIM (Product Information Management) platform that tracked vendor contacts and their assigned groups. Based on that data, the application automatically created vendor-specific folder structures on SharePoint, assigned the correct permission levels per contact group, and handled adding and removing users as the PIM data changed. It also generated over 10,000 vendor-specific files and emails per cycle and deposited them into the correct secured directories. This ran at enterprise scale across the entire vendor base.
+
+At the Center for Educational Reform, I also managed SharePoint and cloud-based file structures with role-based access as part of a broader Salesforce and workflow automation engagement.
+
+I'm confident that once you see the code and hear the details, you'll have a clear picture of the depth of experience I bring.
+
+---
+
+3. Provide your experience working with SharePoint and APIs to autogenerate folders and other workflows.
+
+This is where I'm strongest. At Floor and Decor, I used Python and the Microsoft Graph API to build an end-to-end SharePoint automation system. The application would read vendor and contact data from our PIM system, then programmatically create the folder and subfolder structures on SharePoint, assign granular permissions based on contact group assignments, and manage user access as vendors were added, removed, or reassigned. On top of that, the system generated over 10,000 remittance files and emails each cycle, filed them into the correct vendor folders, and sent notifications with secure SharePoint links. The entire workflow ran automatically with no manual folder creation, no manual permission assignments, and no manual file distribution. I'd bring the same approach to your project: Python, the Graph API, and a clean automation layer that handles structure creation, permission assignment, and any downstream workflows you need.
+
+---
+
+4. What are the most insightful tips you have found using SharePoint for security/access level of folders for internal and external users?
+
+The single most important thing: never manage permissions manually. The moment you start hand-assigning folder access through the SharePoint UI, you're on borrowed time before someone gets access to something they shouldn't. It's not a matter of if, it's when.
+
+Use security groups in Entra ID (Azure AD) and assign permissions at the group level, not the individual level. When someone joins or leaves, you update the group and the permissions cascade automatically. If you layer an API-driven process on top of that, you get a system that is faster, more secure, and extremely accurate compared to anything a person could maintain by clicking through the UI.
+
+A few other things I've learned:
+- Break inheritance intentionally and document it. SharePoint permission inheritance is powerful, but once you break it at a subfolder level, it's easy to lose track of who has access to what. The API lets you audit this programmatically.
+- For external users, use SharePoint sharing links with expiration dates rather than adding them as full site members. It keeps your tenant cleaner and gives you more control.
+- Build an access audit into your automation. Even with a well-designed permission model, run a periodic script that reports who has access to what. It catches drift before it becomes a problem.
+
+---
+
+5. Please list any certifications related to this project.
+
+I don't hold formal SharePoint certifications. What I do have is years of hands-on experience building production-grade SharePoint automation at enterprise scale using Python and the Microsoft Graph API. I managed folder structures, permissions, and automated file distribution for over 400 vendors at Floor and Decor, and I've worked across the broader Microsoft 365 ecosystem extensively.
+
+I'll be straightforward: you're not going to find a freelancer more skilled at navigating the O365 and Graph API than me, and certainly not at $45 an hour. I'm happy to help at this rate because this is genuinely work I enjoy doing, but I'd typically charge at least $75 an hour for this level of automation. The work will speak for itself.
